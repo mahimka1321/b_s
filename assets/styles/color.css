@@ -1,0 +1,175 @@
+:root {
+    --sp-border: 0px;
+
+    --main-bg-color-dark: #1A1A1A;
+    --content-bg-color-dark: #252525;
+    --text-color-dark: #fff;
+    --text-color-grin-darc:#4AFF7D;
+    --svg-logo-grin-darc:#4AFF7D;
+    --btn-color: #1A1A1A;
+    --line-bg:rgb(255,255,255);
+    --line-bg-gr: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
+}
+
+:root[theme='dark'] {
+    --sp-border: 1px;
+
+    --main-bg-color-dark: #E7E7E7;
+    --content-bg-color-dark: #ffffff;
+    --text-color-dark: #1A1A1A;
+    --svg-logo-grin-darc:#1A1A1A;
+    --text-color-grin-darc:#4AFF7D;
+    --btn-color:#4AFF7D;
+    --line-bg:rgb(26,26,26);
+    --line-bg-gr: linear-gradient(90deg, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 30%, rgba(26,26,26,1) 70%, rgba(26,26,26,0) 100%);
+}
+
+
+body
+{
+    background-color: var(--main-bg-color-dark);
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: var(--text-color-dark);
+}
+
+p, li, samp
+{
+    color: var(--text-color-dark);
+}
+
+span
+{
+    color: var(--text-color-grin-darc);
+    -webkit-text-stroke-width: var(--sp-border);
+    -webkit-text-stroke-color: var(--text-color-dark);
+}
+
+a
+{
+    color: var(--text-color-dark);
+}
+
+input 
+{
+    color: var(--text-color-dark);
+}
+
+button 
+{
+    background-color: var(--svg-logo-grin-darc);
+    color: var(--btn-color);
+}
+
+
+.line
+{
+    background: var(--line-bg);
+    background: var(--line-bg-gr);
+}
+
+.bg_content
+{
+    background-color: var(--content-bg-color-dark);
+}
+
+
+
+.header::after
+{
+    background: var(--line-bg);
+    background: var(--line-bg-gr);
+}
+
+.box__ > input 
+{
+    background-color: var(--main-bg-color-dark);
+}
+
+.container_popup
+{
+    background-color: var(--content-bg-color-dark);
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container_popup > ul  > li > a:hover
+{
+    color: #4AFF7D;
+    -webkit-text-stroke-width: var(--sp-border);
+    -webkit-text-stroke-color: var(--text-color-dark);    
+}
+
+.serv
+{
+    stroke: var(--text-color-dark);
+}
+
+.prem_svg
+{
+    fill: var(--svg-logo-grin-darc);
+}
+
+.logo_svg
+{
+    fill: var(--svg-logo-grin-darc);
+}
+
+.container__form_card > div 
+{
+    background-color: var(--main-bg-color-dark);
+}
+
+.container__form_card > div > input
+{
+    background-color: var(--content-bg-color-dark);
+}
+
+.coments__wrapper__advantages::-webkit-scrollbar-track
+{
+    background: var(--main-bg-color-dark);
+}
+
+
+.coments__wrapper__advantages::-webkit-scrollbar-thumb
+{
+    background-color: var(--text-color-dark);
+    border: 5px solid var(--main-bg-color-dark)
+}
+
+.coments__wrapper__advantages > div 
+{
+    background-color: var(--main-bg-color-dark);
+}
+
+
+.container__btn_services > button:hover
+{
+
+    background-color: var(--content-bg-color-dark);
+    color: var(--svg-logo-grin-darc);
+    box-shadow: inset 0 0 0 2px  var(--svg-logo-grin-darc);
+    transition: 0.2s;
+}
+
+.contetn__stands_one > p > a 
+{
+    color: var(--svg-logo-grin-darc);
+    border-bottom: 2px solid var(--svg-logo-grin-darc);
+}
+
+.card_stands
+{
+    background-color: var(--main-bg-color-dark);
+}
+
+
+.text__form_content > h2::first-letter
+{
+    color: var(--text-color-grin-darc);
+    -webkit-text-stroke-width: var(--sp-border);
+    -webkit-text-stroke-color: var(--text-color-dark);
+}
