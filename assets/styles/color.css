@@ -8,6 +8,7 @@
     --svg-logo-grin-darc:#4AFF7D;
     --btn-color: #1A1A1A;
     --line-bg:rgb(255,255,255);
+    --color-circle: #252525;
     --line-bg-gr: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
 }
 
@@ -21,6 +22,7 @@
     --text-color-grin-darc:#4AFF7D;
     --btn-color:#4AFF7D;
     --line-bg:rgb(26,26,26);
+    --color-circle: #ffffff;
     --line-bg-gr: linear-gradient(90deg, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 30%, rgba(26,26,26,1) 70%, rgba(26,26,26,0) 100%);
 }
 
@@ -111,6 +113,21 @@ button
 .prem_svg
 {
     fill: var(--svg-logo-grin-darc);
+}
+
+.prem__svg_monitoring > rect , path, line, circle
+{
+    stroke: var(--svg-logo-grin-darc);
+}
+
+.prem__svg_monitoring > path
+{
+    fill: var(--svg-logo-grin-darc); 
+}
+
+.circle-mon
+{
+    fill: var(--color-circle) !important;
 }
 
 .logo_svg

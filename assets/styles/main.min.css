@@ -331,6 +331,7 @@ p
     display: flex;
     width: 1100px;
     height: 150px;
+    align-items: normal;
 }
 
 .card > div
@@ -358,6 +359,13 @@ p
     width: 64px;
     height: 64px;
 }
+
+.prem__svg_monitoring
+{
+    width: 64px;
+    height: 64px;
+}
+
 
 
 /*КОНТЕЙНЕР КАКИЕ ПРОБЛЕМЫ МЫ РЕШАЕМ*/
@@ -812,4 +820,57 @@ p
 {
     width: 70%;
     margin-left: 10px;
+}
+
+
+
+
+.container__monitoring_about
+{
+    display: block;
+    min-height: 700px;
+    height: auto;
+    margin-top: -70px;
+}
+
+.text_monitoring > h1
+{    
+    width: 1100px;
+    margin-bottom: 20px;
+}
+
+.text_monitoring > h2
+{
+    margin-bottom: 20px;
+}
+
+.text_monitoring > p 
+{
+    margin-top: 5px;
+}
+
+.text_monitoring > div 
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.text_monitoring > div > p 
+{
+    width: 700px;
+}
+
+.text_monitoring > div > button
+{
+    border-radius: 15px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wrapper__monitoring
+{
+    margin-bottom: 50px;
 }
