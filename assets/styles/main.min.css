@@ -855,6 +855,8 @@ p
     margin-top: 20px;
 }
 
+
+
 .text_monitoring > div > p 
 {
     width: 700px;
@@ -873,4 +875,20 @@ p
 .wrapper__monitoring
 {
     margin-bottom: 50px;
+}
+
+.wrapper__monitoring > div > div > h1
+{
+    font-size: 20px;
+}
+
+.wrapper__monitoring > div > div > p
+{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.wrapper__monitoring > div > div
+{
+    width: 500px;
 }
