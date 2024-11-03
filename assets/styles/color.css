@@ -115,7 +115,22 @@ button
     fill: var(--svg-logo-grin-darc);
 }
 
-.prem__svg_monitoring > rect , path, line, circle
+.prem__svg_monitoring > rect
+{
+    stroke: var(--svg-logo-grin-darc);
+}
+
+.prem__svg_monitoring > path
+{
+    stroke: var(--svg-logo-grin-darc);
+}
+
+.prem__svg_monitoring > line
+{
+    stroke: var(--svg-logo-grin-darc);
+}
+
+.prem__svg_monitoring > circle
 {
     stroke: var(--svg-logo-grin-darc);
 }
