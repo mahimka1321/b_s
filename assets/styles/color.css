@@ -165,11 +165,3 @@ button
 {
     background-color: var(--main-bg-color-dark);
 }
-
-
-.text__form_content > h2::first-letter
-{
-    color: var(--text-color-grin-darc);
-    -webkit-text-stroke-width: var(--sp-border);
-    -webkit-text-stroke-color: var(--text-color-dark);
-}
