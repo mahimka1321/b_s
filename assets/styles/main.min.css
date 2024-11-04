@@ -892,3 +892,28 @@ p
 {
     width: 500px;
 }
+
+
+
+
+.sun{
+    position:relative;
+    width:361px;
+    height:315px;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:orbit;
+    -webkit-animation-duration:100s;
+    left: -50px;
+    z-index: 0;
+}
+
+@-webkit-keyframes orbit { 
+from { -webkit-transform:rotate(0deg) } 
+to { -webkit-transform:rotate(360deg) } }
+
+.svg__about_content-one > img 
+{
+    position: relative;
+    z-index: 1;
+}

@@ -9,6 +9,7 @@
     --btn-color: #1A1A1A;
     --line-bg:rgb(255,255,255);
     --color-circle: #252525;
+    --color-serv: url(#paint0_linear_340_99);
     --line-bg-gr: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
 }
 
@@ -23,6 +24,7 @@
     --btn-color:#4AFF7D;
     --line-bg:rgb(26,26,26);
     --color-circle: #ffffff;
+    --color-serv: url(#paint0_linear_334_31);
     --line-bg-gr: linear-gradient(90deg, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 30%, rgba(26,26,26,1) 70%, rgba(26,26,26,0) 100%);
 }
 
@@ -115,6 +117,15 @@ button
     fill: var(--svg-logo-grin-darc);
 }
 
+.prem_svg__serv
+{
+  fill: var(--line-bg-gr);
+}
+
+
+
+
+
 .prem__svg_monitoring > rect
 {
     stroke: var(--svg-logo-grin-darc);
@@ -196,4 +207,10 @@ button
 .card_stands
 {
     background-color: var(--main-bg-color-dark);
+}
+
+
+.container_anim > div
+{
+    background-color: var(--text-color-dark);
 }
