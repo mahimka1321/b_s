@@ -189,7 +189,7 @@ button
 }
 
 
-.container__btn_services > button:hover
+button:hover
 {
 
     background-color: var(--content-bg-color-dark);

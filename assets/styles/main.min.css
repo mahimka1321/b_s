@@ -18,7 +18,8 @@ h1
 p 
 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
+    opacity: 0.8;
 }
 
 .indent
@@ -38,7 +39,7 @@ p
     width: 100%;
 
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .standard_container
@@ -631,14 +632,41 @@ p
 
 .container__about_services
 {
-    width: 700px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    width: 1000px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.container__about_services > p
+.container__about_services > div
+{
+    position: relative;
+    top: -65px;
+}
+
+.container__about_services > div > p
 {
     margin-top: 20px;
+}
+
+.container__about_services > div > button
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    position: relative;
+    top: 50px;
+}
+
+.container__about_services > img
+{
+    width: 400px;
+    height: 400px;
 }
 
 .text__form_content > h2
