@@ -31,13 +31,14 @@ p
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     min-width: 100px;
     max-width: 1100px;
     width: 100%;
 
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .standard_container
@@ -180,8 +181,8 @@ p
 {
     display: block;
 
-    min-height: 1600px;
-    height: auto;
+    min-height: 1400px;
+    height: 100%;
 
     margin-top: -70px;
 }
@@ -193,6 +194,7 @@ p
 .contetn__about_one
 {
     margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .text__solving_problemsabout_content-info
@@ -228,6 +230,10 @@ p
 
 /* КОНТЕЙНЕР О КОМПАНИИ. ВТОРОЙ КОНТЕЙНЕР (ПРОБЛЕМЫ КОТОРЫЕ МЫ РЕШИМ) */
 
+.contetn__about_two
+{
+    margin-bottom: 100px;
+}
 
 .text__solving_problemsabout_content-problem
 {
@@ -898,13 +904,14 @@ p
 
 .sun{
     position:relative;
-    width:361px;
+    width:400px;
     height:315px;
     -webkit-animation-iteration-count:infinite;
     -webkit-animation-timing-function:linear;
     -webkit-animation-name:orbit;
-    -webkit-animation-duration:100s;
-    left: -50px;
+    -webkit-animation-duration: 0s;
+    top: -50px;
+    left: -25px;
     z-index: 0;
 }
 
@@ -916,4 +923,16 @@ to { -webkit-transform:rotate(360deg) } }
 {
     position: relative;
     z-index: 1;
+}
+
+.svg__about_content-two > img 
+{
+    width: 300px;
+    height: 300px;
+}
+
+.standard_content > img 
+{
+    width: 300px;
+    height: 300px;
 }
