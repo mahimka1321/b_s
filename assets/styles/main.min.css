@@ -893,22 +893,11 @@ p
     margin-bottom: 20px;
 }
 
-.text_monitoring > p 
-{
-    width: 750px;
-    margin-top: 5px;
-}
-
-.text_monitoring > div 
-{
-    margin-top: 20px;
-}
 
 
 .content__iso_text
 {
     display: flex;
-    margin-top: 30px;
 }
 .content__iso_text > img
 {
