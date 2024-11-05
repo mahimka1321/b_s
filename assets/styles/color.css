@@ -198,7 +198,7 @@ button:hover
     transition: 0.2s;
 }
 
-.contetn__stands_one > p > a 
+.contetn__stands_one > div > p > a 
 {
     color: var(--svg-logo-grin-darc);
     border-bottom: 2px solid var(--svg-logo-grin-darc);

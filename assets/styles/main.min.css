@@ -203,6 +203,42 @@ p
     margin-top: 50px;
 }
 
+.sun{
+    position:relative;
+    width:400px;
+    height:315px;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:orbit;
+    -webkit-animation-duration: 0s;
+    top: -50px;
+    left: -25px;
+    z-index: 0;
+}
+
+.sun > div
+{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    top: -325px;
+    margin-left: 75px;
+    filter: blur(20px);
+
+    z-index: -1;
+}
+
+@-webkit-keyframes orbit { 
+from { -webkit-transform:rotate(0deg) } 
+to { -webkit-transform:rotate(360deg) } }
+
+.svg__about_content-one > img 
+{
+    position: relative;
+    z-index: 2;
+}
+
 .text__solving_problemsabout_content-info > h2
 {
     width: 550px;
@@ -724,7 +760,7 @@ p
 {
     display: block;
 
-    min-height: 2325px;
+    min-height: 1100px;
     height: auto;
 
     margin-top: -70px;
@@ -736,48 +772,26 @@ p
 
 .contetn__stands_one
 {
-    display: block;
-    margin-top: 200px;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
-.contetn__stands_one > p 
+.contetn__stands_one > div
+{
+    margin-top: -50px;
+}
+
+.contetn__stands_one > div > p 
 {
     width: 550px;
     margin-top: 20px;
 }
 
-
-
-
-.content__stand_video
+.contetn__stands_one > img
 {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.container__video
-{
-    display: flex;
-    justify-content: space-between;
-
-    margin-top: 20px;
-}
-
-.card__video:not(:first-child)
-{
-    margin-top: 10px;
-}
-
-.container__video > div > h2 
-{
-    font-size: 20px;
-    margin-top: 5px;
-    font-weight: 600;
-}
-
-.card__video > p 
-{
-    margin-top: 3px;
+    width: 350px;
+    height: 350px;
 }
 
 
@@ -946,43 +960,6 @@ p
 }
 
 
-
-
-.sun{
-    position:relative;
-    width:400px;
-    height:315px;
-    -webkit-animation-iteration-count:infinite;
-    -webkit-animation-timing-function:linear;
-    -webkit-animation-name:orbit;
-    -webkit-animation-duration: 0s;
-    top: -50px;
-    left: -25px;
-    z-index: 0;
-}
-
-@-webkit-keyframes orbit { 
-from { -webkit-transform:rotate(0deg) } 
-to { -webkit-transform:rotate(360deg) } }
-
-.svg__about_content-one > img 
-{
-    position: relative;
-    z-index: 2;
-}
-
-.sun > div
-{
-    position: relative;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    top: -325px;
-    margin-left: 75px;
-    filter: blur(20px);
-
-    z-index: -1;
-}
 
 .svg__about_content-two > img 
 {
