@@ -220,3 +220,13 @@ button:hover
 {
     background-color: #4aff7d;
 }
+
+#slides 
+{
+    background-color: var(--content-bg-color-dark);
+}
+
+.open__card_
+{
+    background-color: var(--main-bg-color-dark);
+}
