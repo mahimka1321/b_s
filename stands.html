@@ -112,7 +112,7 @@
                     <p><span>С</span>тенд видеоконтроля "ДОЗОР"</p>
                     <samp>Стенд для обучение и тренировки</samp>
                     <div class="container__btn_stans">
-                        <button>Заказать</button>
+                        <button id="standOne">Заказать</button>
                     </div>
                 </div>
                 <div class="card_stands">
@@ -132,78 +132,96 @@
                     </div>
                 </div>
             </div>
-            <div class="open__card_ open_st1" id="cardST1">
-                <div class="text__open_st">
-                    <button>X</button>
-                </div>
-                <div class="container__prew">
-                    <div id="slider">
-                        <input checked="" type="radio" name="slider" id="slide1">
-                        <input type="radio" name="slider" id="slide2">
-                        <input type="radio" name="slider" id="slide3">
-                        <input type="radio" name="slider" id="slide4">
-                        <input type="radio" name="slider" id="slide5">
-                        
-                        <div id="slides">
-                            <div id="overflow">
-                                <div class="inner">
-                                    <div class="slide slide_1">
-                                        <div class="slide-content">
-                                            <img src="assets/imges/st1/01_Dozor_01.png" alt="">
+            <div class="open__card_ open_st1 noneCard" id="cardST1">
+                <div class="card__card">
+                    <div class="text__open_st">
+                        <h1><span>Д</span>озор</h1>
+                        <button id="buttonClean">X</button>
+                    </div>
+                    <div class="container__prew">
+                        <div id="slider">
+                            <input checked="" type="radio" name="slider" id="slide1">
+                            <input type="radio" name="slider" id="slide2">
+                            <input type="radio" name="slider" id="slide3">
+                            <input type="radio" name="slider" id="slide4">
+                            <input type="radio" name="slider" id="slide5">
+                            
+                            <div id="slides">
+                                <div id="overflow">
+                                    <div class="inner">
+                                        <div class="slide slide_1">
+                                            <div class="slide-content">
+                                                <img src="assets/imges/st1/01_Dozor_01.png" alt="">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="slide slide_2">
-                                        <div class="slide-content">
-                                            <img src="assets/imges/st2/02_Kluch_01.png" alt="">
+                                        <div class="slide slide_2">
+                                            <div class="slide-content">
+                                                <img src="assets/imges/st2/02_Kluch_01.png" alt="">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="slide slide_3">
-                                        <div class="slide-content">
-                                            <img src="assets/imges/st3/03_Parus_01.png" alt="">
+                                        <div class="slide slide_3">
+                                            <div class="slide-content">
+                                                <img src="assets/imges/st3/03_Parus_01.png" alt="">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="slide slide_4">
-                                        <div class="slide-content">
-                                            <img src="assets/imges/st1/01_Dozor_01.png" alt="">
+                                        <div class="slide slide_4">
+                                            <div class="slide-content">
+                                                <img src="assets/imges/st1/01_Dozor_01.png" alt="">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="slide slide_5">
-                                        <div class="slide-content">
-                                            <img src="assets/imges/st2/02_Kluch_01.png" alt="">
+                                        <div class="slide slide_5">
+                                            <div class="slide-content">
+                                                <img src="assets/imges/st2/02_Kluch_01.png" alt="">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div> 
-                    
-                        <div id="controls">
-                            <label for="slide1"></label>
-                            <label for="slide2"></label>
-                            <label for="slide3"></label>
-                            <label for="slide4"></label>
-                            <label for="slide5"></label>
-                        </div>
+                            </div> 
                         
-                        <div id="bullets">
-                            <label for="slide1"></label>
-                            <label for="slide2"></label>
-                            <label for="slide3"></label>
-                            <label for="slide4"></label>
-                            <label for="slide5"></label>
+                            <div id="controls">
+                                <label for="slide1"></label>
+                                <label for="slide2"></label>
+                                <label for="slide3"></label>
+                                <label for="slide4"></label>
+                                <label for="slide5"></label>
+                            </div>
+                            
+                            <div id="bullets">
+                                <label for="slide1"></label>
+                                <label for="slide2"></label>
+                                <label for="slide3"></label>
+                                <label for="slide4"></label>
+                                <label for="slide5"></label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="about__stand_t">
-                        <div class="text__st">
-                            <h1><span>Д</span>озор</h1>
-                            <p>Это стенд... Это будет лучший вариант для обучения ваших учиников. Стенды сделаны из качественных материалов и прослужат вам долгое время.</p>
-                        </div>
-                        <div class="open__card_btn-st">
-                            <button>Смотреть обзор</button>
-                            <button>Заказать стенд</button>
+                        <div class="about__stand_t">
+                            <div class="text__st">
+                                <p>Это стенд... Это будет лучший вариант для обучения ваших учиников. Стенды сделаны из качественных материалов и прослужат вам долгое время.</p>
+                            </div>
+                            <div class="open__card_btn-st">
+                                <button>Смотреть обзор</button>
+                                <button>Заказать стенд</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <script>
+                let standOne = document.getElementById('standOne')
+let buttonClean = document.getElementById('buttonClean')
+
+let cardST1 = document.getElementById('cardST1')
+let wrapperCard = document.getElementById('wrapperCard')
+
+standOne.addEventListener("click", function() {
+    cardST1.classList.remove('noneCard')
+    wrapperCard.classList.add('noneCard')
+})
+buttonClean.addEventListener("click", function() {
+    wrapperCard.classList.remove('noneCard')
+    cardST1.classList.add('noneCard')
+})
+            </script>
         </div>
     </section>
     <section class="container__form standard_container bg_content indent">
