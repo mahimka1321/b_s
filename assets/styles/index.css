@@ -1,190 +1,310 @@
-* 
+/* КОНТЕЙНЕР О КОМПАНИИ*/
+
+.container__about
 {
-	padding: 0px;
-	margin: 0px;
-	border: none;
+    display: block;
+
+    min-height: 1400px;
+    height: 100%;
+
+    margin-top: -70px;
 }
 
-*,
-*::before,
-*::after 
+
+/* КОНТЕЙНЕР О КОМПАНИИ. ПЕРВЫЙ КОНТЕЙНЕР (ВРАТЦЕ О ЧЕМ ЗАНИМАЕМСЯ) */
+
+
+.contetn__about_one
 {
-	box-sizing: border-box;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
-.roboto-thin {
-	font-family: "Roboto", serif;
-	font-weight: 100;
-	font-style: normal;
-  }
+.text__solving_problemsabout_content-info
+{
+    margin-top: 50px;
+}
+
+.sun{
+    position:relative;
+    width:400px;
+    height:315px;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:orbit;
+    -webkit-animation-duration: 0s;
+    top: -50px;
+    left: -25px;
+    z-index: 0;
+}
+
+.sun > div
+{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    top: -325px;
+    margin-left: 75px;
+    filter: blur(20px);
+
+    z-index: -1;
+}
+
+@-webkit-keyframes orbit { 
+from { -webkit-transform:rotate(0deg) } 
+to { -webkit-transform:rotate(360deg) } }
+
+.svg__about_content-one > img 
+{
+    position: relative;
+    z-index: 2;
+}
+
+.text__solving_problemsabout_content-info > h2
+{
+    width: 550px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.text__solving_problemsabout_content-info > p
+{
+    width: 490px;
+    margin-top: 20px;
+}
+
+.text__solving_problemsabout_content-info > button 
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    margin-top: 60px;
+}
+
+
+/* КОНТЕЙНЕР О КОМПАНИИ. ВТОРОЙ КОНТЕЙНЕР (ПРОБЛЕМЫ КОТОРЫЕ МЫ РЕШИМ) */
+
+.contetn__about_two
+{
+    margin-bottom: 100px;
+}
+
+.text__solving_problemsabout_content-problem
+{
+    text-align: left;
+    width: 550px;
+}
+
+.text__solving_problemsabout_content-problem > h1
+{
+    margin-top: 50px;
+}
+
+.svg__about_content-two > img 
+{
+    width: 350px;
+    height: 350px;
+}
+
+.text__solving_problemsabout_content-problem > div > p:not(:first-child):not(:last-child)
+{
+    margin-top: 5px;
+}
+
+.text__solving_problemsabout_content-problem > div > p:first-child
+{
+    margin-top: 20px;
+}
+
+
+.text__solving_problemsabout_content-problem > div > p:last-child
+{
+    margin-top: 35px;
+}
+
+
+/* КОНТЕЙНЕР О КОМПАНИИ. ТРЕТИЙ КОНТЕЙНЕР (ОСНОВНОЕ О КОМПАНИИ) */
+
+
+.text__solving_problemsabout_content-compani
+{
+    width: 500px;
+}
+
+.text__solving_problemsabout_content-compani > p 
+{
+    margin-top: 20px;
+}
+
+.content__about_three > img 
+{
+    width: 350px;
+    height: 350px;
+}
+
+/*КОНТЕЙНЕР С ССЫЛКОЙ НА ФОРМУ*/
+
+
+.container__form-contact
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 150px;
+    height: auto;
+}
+
+.container__form-contact > h1
+{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.container__form-contact > button 
+{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+/*КОНТЕЙНЕР КАКИЕ ПРОБЛЕМЫ МЫ РЕШАЕМ*/
+
+
+.container__solving_problems
+{
+   min-height: 1370px;
+   height: auto;
+}
+
+.one, .two, .two, .three, .four, .five, .six
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 40px;
+}
+
+.one { z-index: 5; }
+.two { z-index: 4; }
+.three { z-index: 3; }
+.four { z-index: 2; }
+.five { z-index: 1; }
+.six { z-index: 0; }
+
+@media (prefers-reduced-motion: no-preference)
+{
+    .one, .two, .two, .three, .four, .five, .six
+    {
+        max-height: 20vh;
+        transform: translateY(-95px);
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+        animation-range: -30px 36%;
+
+        opacity: 0;
+    }
   
-  .roboto-light {
-	font-family: "Roboto", serif;
-	font-weight: 300;
-	font-style: normal;
-  }
-  
-  .roboto-regular {
-	font-family: "Roboto", serif;
-	font-weight: 400;
-	font-style: normal;
-  }
-  
-  .roboto-medium {
-	font-family: "Roboto", serif;
-	font-weight: 500;
-	font-style: normal;
-  }
-  
-  .roboto-bold {
-	font-family: "Roboto", serif;
-	font-weight: 700;
-	font-style: normal;
-  }
-  
-  .roboto-black {
-	font-family: "Roboto", serif;
-	font-weight: 900;
-	font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-	font-family: "Roboto", serif;
-	font-weight: 100;
-	font-style: italic;
-  }
-  
-  .roboto-light-italic {
-	font-family: "Roboto", serif;
-	font-weight: 300;
-	font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-	font-family: "Roboto", serif;
-	font-weight: 400;
-	font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-	font-family: "Roboto", serif;
-	font-weight: 500;
-	font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-	font-family: "Roboto", serif;
-	font-weight: 700;
-	font-style: italic;
-  }
-  
-  .roboto-black-italic {
-	font-family: "Roboto", serif;
-	font-weight: 900;
-	font-style: italic;
-  }
-  
-
-html
-{
-	font-family: "Roboto", serif;
-	font-optical-sizing: auto;
-	font-weight: weight;
-	font-style: normal;
+    @keyframes fade-in 
+    {
+        to 
+        {
+            transform: translateY(100px);
+            opacity: 1;
+        }
+    }
 }
 
-/* Links */
-
-a, a:link, a:visited  
+.text__solving_problems
 {
-    text-decoration: none;
+    width: 600px;
 }
 
-a:hover  {
-    text-decoration: none;
+.container__solving_problems > h1
+{
+    margin-top: 100px;
 }
 
-/* Common */
-
-aside, nav, footer, header, section, main 
+.text__solving_problems > h1
 {
-	display: block;
+    font-size: 24px;
 }
 
-h1, h2, h3, h4, h5, h6, p 
+.text__solving_problems > p 
 {
-    font-size: inherit;
-	font-weight: inherit;
+    margin-top: 5px;
+    font-size: 18px;
 }
 
-ul, ul li 
+
+/*КОНТЕЙНЕР КОММЕНТАРИИ*/
+
+
+.container__comment
 {
-	list-style: none;
+    min-height: 525px;
+    height: auto;
 }
 
-a
+.coments__wrapper__advantages
 {
-	text-decoration: none;
+    display: flex;
+
+    margin-top: 50px;
+    padding-bottom: 25px;
+
+    overflow: auto;
 }
 
-img 
+.coments__wrapper__advantages::-webkit-scrollbar
 {
-	vertical-align: top;
+    width: 10px;
 }
 
-img, svg 
+.coments__wrapper__advantages::-webkit-scrollbar-thumb
 {
-	max-width: 100%;
-	height: auto;
+    border-radius: 20px;
 }
 
-address 
+.com_card
 {
-  font-style: normal;
+    min-width: 300px;
+    width: auto;
+    height: 200px;
+
+    padding: 25px;
+    border-radius: 25px;   
 }
 
-/* Form */
-
-input, textarea, button, select 
+.coments__wrapper__advantages > div:not(:first-child)
 {
-	font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background-color: transparent;
+    margin-left: 25px;
 }
 
-input::-ms-clear 
+.coments__wrapper__advantages > div > h1
 {
-	display: none;
+    font-size: 24px;
 }
 
-button, input[type="submit"] 
+.coments__wrapper__advantages > div > p 
 {
-    display: inline-block;
-    box-shadow: none;
-    background-color: transparent;
-    background: none;
-    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
 }
 
-input:focus, input:active,
-button:focus, button:active 
+.container__comment > h1
 {
-    outline: none;
-}
-
-button::-moz-focus-inner 
-{
-	padding: 0;
-	border: 0;
-}
-
-label 
-{
-	cursor: pointer;
-}
-
-legend 
-{
-	display: block;
+    margin-top: 100px;
 }

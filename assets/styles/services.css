@@ -1,0 +1,97 @@
+/* СТРАНИЦА УСЛУГИ*/
+
+/* КОНТЕЙНЕР УСЛУГИ*/
+
+
+.container__services
+{
+    margin-top: -70px;
+    padding-top: 150px;
+    min-height: 700px;
+    height: auto;
+
+    padding-bottom: 100px;
+}
+
+.container__about_services
+{
+    width: 1000px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__about_services > div
+{
+    position: relative;
+    top: -65px;
+}
+
+.container__about_services > div > p
+{
+    margin-top: 20px;
+}
+
+.container__about_services > div > button
+{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    position: relative;
+    top: 50px;
+}
+
+.container__about_services > img
+{
+    width: 350px;
+    height: 350px;
+}
+
+.text__form_content > h2
+{
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.information__services > p
+{
+    width: 550px;
+    margin-top: 3px;
+    font-weight: 400;
+}
+
+
+.information__services > p:first-child
+{
+    margin-top: 20px;
+}
+
+.container__btn_services
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.container__btn_services > button
+{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight:600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.service__form_content
+{
+    margin-top: 50px;
+}
