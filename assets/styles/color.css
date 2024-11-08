@@ -11,6 +11,8 @@
     --color-circle: #252525;
     --color-serv: url(#paint0_linear_340_99);
     --line-bg-gr: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
+    --bg-rgb:rgb(74,255,125);
+    --bg-rgb-b: linear-gradient(45deg, rgba(74,255,125,0.56) 0%, rgba(74,255,125,0.18) 25%, rgba(74,255,125,0.06) 50%, rgba(74,255,125,0) 100%);
 }
 
 :root[theme='dark'] {
@@ -26,6 +28,8 @@
     --color-circle: #ffffff;
     --color-serv: url(#paint0_linear_334_31);
     --line-bg-gr: linear-gradient(90deg, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 30%, rgba(26,26,26,1) 70%, rgba(26,26,26,0) 100%);
+    --bg-rgb: rgb(26,26,26);
+    --bg-rgb-b: linear-gradient(45deg, rgba(26,26,26,0.56) 0%, rgba(26,26,26,0.18) 25%, rgba(26,26,26,0.06) 50%, rgba(26,26,26,0) 100%);
 }
 
 
@@ -92,21 +96,6 @@ button
     background-color: var(--main-bg-color-dark);
 }
 
-.container_popup
-{
-    background-color: var(--content-bg-color-dark);
-    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
-}
-
-.container_popup > ul  > li > a:hover
-{
-    color: #4AFF7D;
-    -webkit-text-stroke-width: var(--sp-border);
-    -webkit-text-stroke-color: var(--text-color-dark);    
-}
-
 .serv
 {
     stroke: var(--text-color-dark);
@@ -123,7 +112,11 @@ button
 }
 
 
-
+.container__bg_gradient
+{
+    background: var(--bg-rgb);
+    background: var(--bg-rgb-b);
+}
 
 
 .prem__svg_monitoring > rect
@@ -229,4 +222,10 @@ button:hover
 .open__card_
 {
     background-color: var(--main-bg-color-dark);
+}
+
+.our_clients > p 
+{
+    background-color: var(--main-bg-color-dark);
+    color: var(--text-color-dark);
 }
