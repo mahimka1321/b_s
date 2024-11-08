@@ -417,5 +417,10 @@ p
 
 .st__form_control
 {
-    margin-top: -74px;
+    margin-top: -80px;
+}
+
+.st__form_control > div
+{
+    padding-top: 50px;
 }
