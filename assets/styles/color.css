@@ -236,3 +236,12 @@ button:hover
     background-color: var(--main-bg-color-dark);
     color: var(--text-color-dark);
 }
+
+
+.slide1:checked ~ .bullets label:nth-child(1), 
+.slide2:checked ~ .bullets label:nth-child(2), 
+.slide3:checked ~ .bullets label:nth-child(3), 
+.slide4:checked ~ .bullets label:nth-child(4),
+.slide5:checked ~ .bullets label:nth-child(5) {
+	background: var(--svg-logo-grin-darc);
+}
