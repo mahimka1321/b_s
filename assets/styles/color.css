@@ -216,7 +216,7 @@ button:hover
 
 .sun > div
 {
-    background-color: #4aff7d;
+    background-color: var(--svg-logo-grin-darc);
 }
 
 #slides 

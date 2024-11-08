@@ -27,14 +27,12 @@
 
 .sun{
     position:relative;
-    width:400px;
-    height:315px;
+    width: 350px;
+    height: 350px;
     -webkit-animation-iteration-count:infinite;
     -webkit-animation-timing-function:linear;
     -webkit-animation-name:orbit;
     -webkit-animation-duration: 0s;
-    top: -50px;
-    left: -25px;
     z-index: 0;
 }
 
@@ -44,8 +42,8 @@
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    top: -325px;
-    margin-left: 75px;
+    top: -300px;
+    margin-left: 50px;
     filter: blur(50px);
 
     z-index: -1;
@@ -138,8 +136,8 @@ to { -webkit-transform:rotate(360deg) } }
 
 .svg__about_content-two > img 
 {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 }
 
 .text__solving_problemsabout_content-problem > div > p:not(:first-child):not(:last-child)
@@ -174,8 +172,8 @@ to { -webkit-transform:rotate(360deg) } }
 
 .content__about_three > img 
 {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 }
 
 /*КОНТЕЙНЕР С ССЫЛКОЙ НА ФОРМУ*/
