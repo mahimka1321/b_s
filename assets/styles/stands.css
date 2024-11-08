@@ -278,6 +278,7 @@
     transform:rotate(90deg);
     display: block;
     margin-top: -50px;
+    margin-left: -13px;
 }
 
 .slide1:checked ~ .controls label:nth-child(2), 
