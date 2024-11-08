@@ -228,20 +228,24 @@
 .slides .inner {
 	width: 500%;
 	line-height: 0;
-	height: 240px;
+	height: 300px;
 }
 
 .slides .slide {
 	width: 20%;
 	float: left;
 	display: block;
-	height: 100%;
+	height: 300px;
 	color: #FFFFFF;
 }
 
 
 .controls {
-	margin: -130px 0 0 0;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 30px;
+	margin: -150px 0 0 0;
 	width: 100%;
 	height: 50px;
 	z-index: 3;
@@ -251,23 +255,12 @@
 .controls label {
 	transition: opacity 0.2s ease-out;
 	display: none;
-	width: 50px;
-	height: 50px;
+	width: 17px;
+	height: 150px;
 	opacity: 0.4;
 }
 .controls label:hover {
 	opacity: 1;
-}
-
-.slide1:checked ~ .controls label:nth-child(2), 
-.slide2:checked ~ .controls label:nth-child(3), 
-.slide3:checked ~ .controls label:nth-child(4), 
-.slide4:checked ~ .controls label:nth-child(5), 
-.slide5:checked ~ .controls label:nth-child(1) {
-	background: url(/assets/images/slider/next.png) no-repeat;
-	float: right;
-	margin: 0 -50px 0 0;
-	display: block;
 }
 
 .slide1:checked ~ .controls label:nth-child(5), 
@@ -275,10 +268,21 @@
 .slide3:checked ~ .controls label:nth-child(2), 
 .slide4:checked ~ .controls label:nth-child(3), 
 .slide5:checked ~ .controls label:nth-child(4) {
-	background: url(/assets/images/slider/prev.png) no-repeat;
-	float: left;
-	margin: 0 0 0 -50px;
-	display: block;
+	background: url(/assets/imges/left.png) no-repeat;
+    display: block;
+    margin-top: -50px;
+}
+
+.slide1:checked ~ .controls label:nth-child(2), 
+.slide2:checked ~ .controls label:nth-child(3), 
+.slide3:checked ~ .controls label:nth-child(4), 
+.slide4:checked ~ .controls label:nth-child(5), 
+.slide5:checked ~ .controls label:nth-child(1) {
+	background: url(/assets/imges/right.png) no-repeat;
+    display: block;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 315px;
 }
 
 .bullets {
@@ -301,6 +305,7 @@
 .slide5:checked ~ .bullets label:nth-child(5) {
 	background: #333;
 }
+
 /* responsive behaviour of controls */
 @media screen and (max-width: 900px) {
 	.slide1:checked ~ .controls label:nth-child(5), 
@@ -323,6 +328,15 @@
 .noneCard
 {
     display: none;
+}
+
+.slide-content > img
+{
+    vertical-align: top;
+    width: 360px;
+    height: 300px;
+
+    border-radius: 15px;
 }
 
 .prem__svg_monitoring

@@ -219,10 +219,7 @@ button:hover
     background-color: var(--svg-logo-grin-darc);
 }
 
-#slides 
-{
-    background-color: var(--content-bg-color-dark);
-}
+
 
 .open__card_
 {
