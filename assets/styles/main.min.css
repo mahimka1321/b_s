@@ -349,10 +349,12 @@ p
 .footer
 {
     display: flex;
-    align-items: center;
-
+    align-items: flex-start;
     min-height: 200px;
     height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
 

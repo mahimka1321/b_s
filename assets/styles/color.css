@@ -251,3 +251,9 @@ button
 .slide5:checked ~ .bullets label:nth-child(5) {
 	background: var(--svg-logo-grin-darc);
 }
+
+
+.footer
+{
+    background-color: var(--main-bg-color-dark);
+}
