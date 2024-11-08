@@ -414,3 +414,8 @@ p
     width: 64px;
     height: 64px;
 }
+
+.st__form_control
+{
+    margin-top: -74px;
+}
