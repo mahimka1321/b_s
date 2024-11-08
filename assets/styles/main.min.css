@@ -20,11 +20,10 @@ html
 	font-style: normal;
 }
 
-body > div
+body
 {
     display: grid;
     justify-content: center;
-    margin: 10px;
 }
 
 /* Links */
