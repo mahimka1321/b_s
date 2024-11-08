@@ -215,13 +215,9 @@ p
 {
     display: flex;
     font-weight: 600;
+    height: 38px;
+    width: 100px;
 }    
-
-.name_logo 
-{
-    margin-top: 5px;
-    margin-left: 10px;
-}
 
 .box__
 {

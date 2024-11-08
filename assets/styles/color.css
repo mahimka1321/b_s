@@ -71,6 +71,11 @@ button
     color: var(--btn-color);
 }
 
+.logo_th-w
+{
+    fill: var(--text-color-dark);
+}
+
 .text_monitoring > h2
 {
     color: var(--svg-logo-grin-darc);
