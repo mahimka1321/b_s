@@ -269,7 +269,13 @@
 .slide3:checked ~ .controls label:nth-child(2), 
 .slide4:checked ~ .controls label:nth-child(3), 
 .slide5:checked ~ .controls label:nth-child(4) {
-	background: url(/assets/imges/left.png) no-repeat;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #ffffff;
+    transform-origin:topleft;
+    transform:rotate(90deg);
     display: block;
     margin-top: -50px;
 }
@@ -279,7 +285,16 @@
 .slide3:checked ~ .controls label:nth-child(4), 
 .slide4:checked ~ .controls label:nth-child(5), 
 .slide5:checked ~ .controls label:nth-child(1) {
-	background: url(/assets/imges/right.png) no-repeat;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #ffffff;
+    transform-origin:topleft;
+    transform:rotate(-90deg);
+    font-size: 0;
+    line-height: 0;
+    float: left;
     display: block;
     position: absolute;
     margin-top: -50px;
