@@ -65,6 +65,12 @@ input
     color: var(--text-color-dark);
 }
 
+.btn_form_form
+{
+    background-color: var(--svg-logo-grin-darc);
+    color: var(--btn-color);
+}
+
 button 
 {
     background-color: var(--svg-logo-grin-darc);
@@ -192,7 +198,7 @@ button
 }
 
 
-button:hover
+.btn_form_form:hover
 {
 
     background-color: var(--content-bg-color-dark);

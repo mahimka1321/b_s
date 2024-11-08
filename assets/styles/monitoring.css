@@ -50,8 +50,12 @@
     margin-top: 50px;
 }
 
-.content__iso_text > div > button
+.content__iso_text > div > .btn_form_form
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     border-radius: 15px;
     width: 300px;
     height: 40px;

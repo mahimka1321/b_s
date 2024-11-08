@@ -33,8 +33,12 @@
     margin-top: 20px;
 }
 
-.container__about_services > div > button
+.container__about_services > div > .btn_form_form
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     width: 250px;
     height: 40px;
     border-radius: 15px;

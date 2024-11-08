@@ -72,8 +72,12 @@ to { -webkit-transform:rotate(360deg) } }
     margin-top: 20px;
 }
 
-.text__solving_problemsabout_content-info > button 
+.text__solving_problemsabout_content-info > .btn_form_form
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     width: 250px;
     height: 40px;
     border-radius: 15px;
