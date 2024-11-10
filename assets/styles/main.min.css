@@ -357,6 +357,28 @@ p
     justify-content: center;
 }
 
+.footer > div
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.footer > p
+{
+    margin: 10px 0 10px 0;
+}
+
+.footer > div > a 
+{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 1;
+    text-decoration: underline;
+    margin-left: 60px;
+
+}
+
 
 /*КОНТЕЙНЕР ПРИИМУЩЕСТВА*/
 
