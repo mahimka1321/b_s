@@ -37,26 +37,6 @@
 }
 
 
-.js-loading *,
-.js-loading *:before,
-.js-loading *:after {
-  animation-play-state: paused !important;
-}
-
-.loading {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #aaa;
-    font-size: 48px;
-    display: none;
-  }
-
-  .js-loading .loading {
-    display: block;
-  }
-
 .img__swap_stand
 {
     display: block;
