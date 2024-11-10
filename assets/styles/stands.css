@@ -27,15 +27,6 @@
     margin-top: 20px;
 }
 
-.contetn__stands_one > img
-{
-    display: block;
-    width: 300px;
-    height: 300px;
-    transform: scale(0.5);
-    transform: translateX(-100px);
-}
-
 
 .img__swap_stand
 {
@@ -43,54 +34,110 @@
     width: 455px;
     height: 521px;
     transform: scale(0.6);
-    background-image: url(../imges/stand1.png);
+    background-image: url(../imges/stand0.png);
     background-repeat:no-repeat;
-background-position: center center;
-
-    animation: standap 10s infinite;
-
-    opacity: 1;
+    background-position: center center;
+    transform-style: preserve-3d;
+    position: relative;
 }
 
-@keyframes standap {
+.img_1
+{
+    position: absolute;
+    top: 70px;
+    left: 15px;
+
+    animation: 1s rop ;
+}
+
+@keyframes rop {
     0%{
-        background-image: url(../imges/stand1.png);
+        top: -123px;
+        left: -343px;
+        opacity: 0;
     }
-    15%{
-        background-image: url(../imges/stand1.png);
-    }
-    20%{
-        background-image: url(../imges/stand0.png);
-    }
-    25%{
-        background-image: url(../imges/stand2.png);
-    }
-    40%{
-        background-image: url(../imges/stand2.png);
-    }
-    45%{
-        background-image: url(../imges/stand0.png);
-    }
-    50%{
-        background-image: url(../imges/stand3.png);
-    }
-    65%{
-        background-image: url(../imges/stand3.png);
-    }
-    70%{
-        background-image: url(../imges/stand0.png);
-    }
-    75%{
-        background-image: url(../imges/stand4.png);
-    }
-    90%{
-        background-image: url(../imges/stand4.png);
-    }
-    95%{
-        background-image: url(../imges/stand0.png);
+    50% 
+    {
+        opacity: 1;
     }
     100%{
-        background-image: url(../imges/stand1.png);
+        top: 70px;
+        left: 15px;
+    }
+}
+
+.img_2
+{
+    position: absolute;
+    top: 10px;
+    left: 180px;
+
+    animation: 1s rop1 ;
+}
+
+@keyframes rop1 {
+    0%{
+        top: -123px;
+        left: -343px;
+        opacity: 0;
+    }
+    50% 
+    {
+        opacity: 1;
+    }
+    100%{
+        top: 10px;
+        left: 180px;
+    }
+}
+
+.img_3
+{
+    position: absolute;
+    top: 200px;
+    left: 35px;
+
+    animation: 1s rop2 ;
+}
+
+@keyframes rop2 {
+    0%{
+        top: -123px;
+        left: -343px;
+        opacity: 0;
+    }
+    50% 
+    {
+        opacity: 1;
+    }
+    100%{
+        top: 200px;
+        left: 35px;    
+    }
+}
+
+.img_4
+{
+    position: absolute;
+    left: 210px;
+    top: 180px;
+
+    animation: 1s rop3 ;
+}
+
+@keyframes rop3 {
+    0%{
+        top: -123px;
+        left: -343px;
+        opacity: 0;
+    }
+    50% 
+    {
+        opacity: 1;
+    }
+    100%{
+        left: 210px;
+        top: 180px;
     }
 }
 
