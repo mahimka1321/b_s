@@ -47,6 +47,7 @@
 background-position: center center;
 
     animation: standap 10s infinite;
+    animation-play-state: paused !important;
 
     opacity: 1;
 }
