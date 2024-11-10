@@ -15,24 +15,6 @@
     --bg-rgb-b: linear-gradient(45deg, rgba(74,255,125,0.56) 0%, rgba(74,255,125,0.18) 25%, rgba(74,255,125,0.06) 50%, rgba(74,255,125,0) 100%);
 }
 
-:root[theme='dark'] {
-    --sp-border: 1px;
-
-    --main-bg-color-dark: #E7E7E7;
-    --content-bg-color-dark: #ffffff;
-    --text-color-dark: #1A1A1A;
-    --svg-logo-grin-darc:#1A1A1A;
-    --text-color-grin-darc:#4AFF7D;
-    --btn-color:#4AFF7D;
-    --line-bg:rgb(26,26,26);
-    --color-circle: #ffffff;
-    --color-serv: url(#paint0_linear_334_31);
-    --line-bg-gr: linear-gradient(90deg, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 30%, rgba(26,26,26,1) 70%, rgba(26,26,26,0) 100%);
-    --bg-rgb: rgb(26,26,26);
-    --bg-rgb-b: linear-gradient(45deg, rgba(26,26,26,0.56) 0%, rgba(26,26,26,0.18) 25%, rgba(26,26,26,0.06) 50%, rgba(26,26,26,0) 100%);
-}
-
-
 body
 {
     background-color: var(--main-bg-color-dark);
@@ -105,11 +87,6 @@ button
 {
     background: var(--line-bg);
     background: var(--line-bg-gr);
-}
-
-.box__ > input 
-{
-    background-color: var(--main-bg-color-dark);
 }
 
 .serv

@@ -1,3 +1,5 @@
+/*
+    
 const toggleBtn = document.querySelector("#toggle-theme");
 const darknessSlider = document.querySelector("#darknessSlider");
 
@@ -26,3 +28,5 @@ toggleBtn.addEventListener("click", function() {
             localStorage.setItem('theme', 1);
         }
 });  
+
+*/
