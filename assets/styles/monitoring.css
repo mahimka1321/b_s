@@ -16,8 +16,8 @@
     min-width: 100px;
     max-width: 1100px;
     width: 100%;
-    padding-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
     margin-top: 50px;
 
 }
@@ -43,11 +43,12 @@
 {
     width: 300px;
     height: 300px;
+    margin-top: 50px;
 }
 
 .content__iso_text > div > p 
 {
-    margin-top: 50px;
+    margin-top: 135px;
 }
 
 .content__iso_text > div > .btn_form_form
@@ -60,7 +61,7 @@
     width: 300px;
     height: 40px;
 
-    margin-top: 20px;
+    margin-top: 40px;
 
     font-size: 16px;
     font-weight: 500;
