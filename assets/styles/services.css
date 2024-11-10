@@ -31,6 +31,7 @@
 .container__about_services > div > p
 {
     margin-top: 20px;
+    width: 550px;
 }
 
 .container__about_services > div > .btn_form_form
@@ -59,13 +60,15 @@
     background-position: center center;
     transform-style: preserve-3d;
     position: relative;
+
+    margin-left: 50px;
 }
 
 .img_services_bg > div 
 {
     position: absolute;
     top: 60px;
-    left: -25px;
+    left: 40px;
 
     opacity: 1;
     transform: translateZ(-100px);
@@ -91,12 +94,18 @@
     width: 550px;
     margin-top: 3px;
     font-weight: 400;
+    opacity: 1;
 }
 
 
 .information__services > p:first-child
 {
     margin-top: 20px;
+}
+
+#description > p
+{
+    opacity: 1;
 }
 
 .container__btn_services
