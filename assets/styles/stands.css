@@ -27,30 +27,14 @@
     margin-top: 20px;
 }
 
-.contetn__stands_one > .img__stands_slid
+.contetn__stands_one > img
 {
-    width: 350px;
-    height: 350px;
-    transform: scale(0.9);
-    background-image: url(../imges/stand1.png);
-    animation: img_stands 10s infinite;
+    display: block;
+    width: 300px;
+    height: 300px;
+    transform: scale(0.5);
+    transform: translateX(-100px);
 }
-
-@keyframes img_stands {
-    0%{
-        background-image: url(../imges/stand1.png);
-        opacity: 1;
-    }
-    30%{
-        background-image: url(../imges/stand2.png);
-        opacity: 1;
-    }
-    60%{
-        background-image: url(../imges/stand3.png);
-        opacity: 1;
-    }
-}
-
 
 .content__stands_shop
 {
