@@ -36,6 +36,23 @@
     transform: translateX(-100px);
 }
 
+
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #aaa;
+    font-size: 48px;
+    display: none;
+  }
+
 .img__swap_stand
 {
     display: block;
@@ -47,7 +64,6 @@
 background-position: center center;
 
     animation: standap 10s infinite;
-    animation-play-state: paused !important;
 
     opacity: 1;
 }
