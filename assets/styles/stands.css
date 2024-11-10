@@ -285,11 +285,10 @@
     margin-top: 115px;
 }
 
-.open__card_btn-st > button
+.open__card_btn-st > .btn_form_form
 {
     width: 200px;
-    height: 40px;
-
+    padding: 12px;
     border-radius: 15px;
     font-size: 16px;
     font-weight: 500;

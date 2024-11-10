@@ -38,6 +38,11 @@ a:hover
     text-decoration: none;
 }
 
+button{
+    height: 40px;
+    border-radius: 10px;
+}
+
 /* Common */
 
 aside, nav, footer, header, section, main 
@@ -134,6 +139,13 @@ p
     font-size: 20px;
     font-weight: 300;
     opacity: 0.8;
+}
+
+
+.op__
+{
+    padding: 12px;
+    border-radius: 15px;
 }
 
 /*СТАНДАРТЫ*/
@@ -296,7 +308,7 @@ p
     border-radius: 10px;
 }
 
-.container__form_card > div > button
+.container__form_card > div > 
 {
     text-align: center;
 
