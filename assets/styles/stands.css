@@ -32,21 +32,21 @@
     width: 350px;
     height: 350px;
     transform: scale(0.9);
-    background-image: url(/assets/imges/stand1.png);
+    background-image: url(/imges/stand1.png);
     animation: img_stands 10s infinite;
 }
 
 @keyframes img_stands {
     0%{
-        background-image: url(/assets/imges/stand1.png);
+        background-image: url(/imges/stand1.png);
         opacity: 1;
     }
     30%{
-        background-image: url(/assets/imges/stand2.png);
+        background-image: url(/imges/stand2.png);
         opacity: 1;
     }
     60%{
-        background-image: url(/assets/imges/stand3.png);
+        background-image: url(/imges/stand3.png);
         opacity: 1;
     }
 }
