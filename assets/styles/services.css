@@ -16,7 +16,7 @@
 .container__about_services
 {
     width: 1000px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,10 +50,33 @@
     top: 50px;
 }
 
-.container__about_services > img
+.container__about_services > .img_services_bg
 {
+    width: 480px;
+    height: 400px;
+    background-image: url(../imges/BrowserConnection.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.img_services_bg > div 
+{
+    position: absolute;
+    top: 60px;
+    left: -25px;
+
+    opacity: 1;
+    transform: translateZ(-100px);
+    scale: 0.9;
+    rotate: 25deg;
     width: 300px;
     height: 300px;
+    border-radius: 50%;
+    background-color: #4AFF7D;
+    filter: blur(50px);
+    z-index: -10;
 }
 
 .text__form_content > h2
