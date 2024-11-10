@@ -53,6 +53,10 @@
     display: none;
   }
 
+  .js-loading .loading {
+    display: block;
+  }
+
 .img__swap_stand
 {
     display: block;
