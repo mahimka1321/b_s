@@ -36,6 +36,63 @@
     transform: translateX(-100px);
 }
 
+.img__swap_stand
+{
+    display: block;
+    width: 455px;
+    height: 521px;
+    transform: scale(0.6);
+    background-image: url(../imges/stand1.png);
+    background-repeat:no-repeat;
+background-position: center center;
+
+    animation: standap 10s infinite;
+
+    opacity: 1;
+}
+
+@keyframes standap {
+    0%{
+        background-image: url(../imges/stand1.png);
+    }
+    15%{
+        background-image: url(../imges/stand1.png);
+    }
+    20%{
+        background-image: url(../imges/stand0.png);
+    }
+    25%{
+        background-image: url(../imges/stand2.png);
+    }
+    40%{
+        background-image: url(../imges/stand2.png);
+    }
+    45%{
+        background-image: url(../imges/stand0.png);
+    }
+    50%{
+        background-image: url(../imges/stand3.png);
+    }
+    65%{
+        background-image: url(../imges/stand3.png);
+    }
+    70%{
+        background-image: url(../imges/stand0.png);
+    }
+    75%{
+        background-image: url(../imges/stand4.png);
+    }
+    90%{
+        background-image: url(../imges/stand4.png);
+    }
+    95%{
+        background-image: url(../imges/stand0.png);
+    }
+    100%{
+        background-image: url(../imges/stand1.png);
+    }
+}
+
 .content__stands_shop
 {
     margin: 0 auto;
