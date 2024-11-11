@@ -95,10 +95,10 @@ to { -webkit-transform:rotate(360deg) } }
     margin-top: 30px;
 }
 
-.our_clients > p 
+.our_clients > img
 {
     width: auto;
-    height: 35px;
+    height: 45px;
     padding: 10px;
     display: flex;
     text-align: center;
@@ -110,12 +110,12 @@ to { -webkit-transform:rotate(360deg) } }
     opacity: 1;
 }
 
-.our_clients > p:first-child
+.our_clients > img:first-child
 {
     border-radius: 8px 0 0 8px;
 }
 
-.our_clients > p:last-child
+.our_clients > img:last-child
 {
     border-radius: 0 8px 8px 0;
 }

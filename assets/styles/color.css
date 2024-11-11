@@ -222,10 +222,9 @@ button:hover
     background-color: var(--main-bg-color-dark);
 }
 
-.our_clients > p 
+.our_clients > img
 {
-    background-color: var(--main-bg-color-dark);
-    color: var(--text-color-dark);
+    background-color: var(--text-color-dark);
 }
 
 
