@@ -224,7 +224,7 @@ button:hover
 
 .our_clients > img
 {
-    background-color: var(--text-color-dark);
+    filter: grayscale(95%);
 }
 
 
