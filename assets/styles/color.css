@@ -222,9 +222,14 @@ button:hover
     background-color: var(--main-bg-color-dark);
 }
 
-.our_clients > img
+.container__about_cooperation
 {
-    filter: grayscale(95%);
+    background-color: var(--main-bg-color-dark);
+}
+
+.containret__our_partners
+{
+    background-color: var(--main-bg-color-dark);
 }
 
 

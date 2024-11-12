@@ -354,7 +354,8 @@ p
 {
     display: flex;
     align-items: flex-start;
-    min-height: 200px;
+    min-height: 50px;
+    max-height: 500px;
     height: auto;
     flex-wrap: wrap;
     flex-direction: column;

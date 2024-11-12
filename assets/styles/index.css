@@ -180,9 +180,21 @@ to { -webkit-transform:rotate(360deg) } }
 
 /*КОНТЕЙНЕР о сотрудничестве */
 
+.container__about_cooperation
+{
+    height: 50px;
+    margin: 20px 0 60px 0;
+
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content_customers
 {
     margin: 50px 0 50px 0;
+    padding: 0;
 }
 
 .our_clients
@@ -197,27 +209,8 @@ to { -webkit-transform:rotate(360deg) } }
 .our_clients > img
 {
     width: auto;
-    height: 150px;
-    margin: 20px;
-    padding: 30px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-
-    font-size: 14px;
-    font-weight: 400;
-    margin: 5px;
-    opacity: 1;
-}
-
-.our_clients > img:first-child
-{
-    border-radius: 8px 0 0 8px;
-}
-
-.our_clients > img:last-child
-{
-    border-radius: 0 8px 8px 0;
+    height: 65px;
+    margin: 30px;
 }
 
 .content_partners
@@ -294,4 +287,31 @@ to { -webkit-transform:rotate(360deg) } }
 {
     margin-top: 5px;
     font-size: 18px;
+}
+
+.containret__our_partners
+{
+    height: 200px;
+    padding: 0;
+}
+
+.containret__our_partners > h1
+{
+    padding-left: 100px;
+}
+
+.our_partners
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.our_partners > img
+{
+    width: auto;
+    height: 65px;
+    margin: 30px;
 }
