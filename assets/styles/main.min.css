@@ -141,6 +141,12 @@ p
     opacity: 0.8;
 }
 
+pre
+{
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.8;
+}
 
 .op__
 {

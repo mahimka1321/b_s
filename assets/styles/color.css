@@ -47,6 +47,11 @@ input
     color: var(--text-color-dark);
 }
 
+pre
+{
+    color: var(--text-color-dark);
+}
+
 .btn_form_form
 {
     background-color: var(--svg-logo-grin-darc);
