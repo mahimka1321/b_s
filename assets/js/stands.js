@@ -5,10 +5,6 @@ let standThree = document.getElementById('standThree');
 let cardST1 = document.getElementById('cardST1');
 
 let photoSlid1 = document.getElementById('photoSlid1');
-let photoSlid2 = document.getElementById('photoSlid2');
-let photoSlid3 = document.getElementById('photoSlid3');
-let photoSlid4 = document.getElementById('photoSlid4');
-let photoSlid5 = document.getElementById('photoSlid5');
 
 let nameStand = document.getElementById('nameStand');
 let aboutStand = document.getElementById('aboutStand');
@@ -26,10 +22,6 @@ function opnen() {
 standOne.addEventListener("click", function() {
     opnen()
     photoSlid1.src = 'assets/imges/st1/01_Dozor_01.png';
-    photoSlid2.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid3.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid4.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid5.src = 'assets/imges/st2/02_Kluch_01.png';
 
     nameStand.innerHTML = 'УТСВК "<span>Д</span>озор"';
     aboutStand.innerText = 'В основе конструкции лежит листовой металл и алюминиевый профиль.  Такое решение позволяет обеспечить высокую жёсткость и организовать полноценный кабель-менеджмент, скрыв лишние провода. Тем самым минимизируем случайные повреждения при эксплуатации, как зачастую происходит у сторонних производителей. Подчеркнуть внешний вид конструкции и ее индивидуальность позволяет фирменный логотип с подсветкой. В рамках возможностей стенда можно выполнять следующие мероприятия.'+
@@ -50,26 +42,36 @@ standOne.addEventListener("click", function() {
 
 standTwo.addEventListener("click", function() {
     opnen()
-    photoSlid1.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid2.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid3.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid4.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid5.src = 'assets/imges/st2/02_Kluch_01.png';
+    photoSlid1.src = 'assets/imges/st3/03_Parus_01.png';
 
-    nameStand.innerHTML = '<span>П</span>арус';
-    aboutStand.innerText = 'Это парус';
+    nameStand.innerHTML = 'УТСВК "<span>П</span>арус"';
+    aboutStand.innerText = 'Данный стенд разработан с целью детального изучения стандарта 802.11. Включает в себя различные типы антенн, вендоров сетевого оборудования и проприетарные технологии в рамках единого решения.'+
+                        '\r\n' + '\r\n' + 'В состав стенда входит'+
+                        '\r\n' + '\r\n' +'1 Роутер с 4-мя всенаправленным антеннами на базе KeeneticOS'+
+                        '\r\n' + '2 Точка доступа корпоративного уровня на базе RouterOS с направленной антенной, для использования внутри помещений'+
+                        '\r\n' + '3 Точка доступа корпоративного уровня на базе AirOS,  с секторной антенной и радиусом действия до 15км, рассчитанной для построения беспроводных мостов.'+
+                        '\r\n' + '4 Точка доступа корпоративного уровня на базе PharOS, с параболической антенной и радиусом действия до 30км, рассчитанной для построения беспроводных мостов.'+
+                        '\r\n' + '5 Сканер WiFi для частотного анализа в диапазонах 2,4 и 5 ГГц.'+
+                        '\r\n' + '\r\n' +'Благодаря разным вендорам сетевых устройств, имеется возможность изучать и настраивать разные типы точек доступа, а также детально сравнить возможности и удобство настроек между собой. Это позволяет расширить кругозор будущих специалистов и более четко понимать в каких проектах использовать то или иное оборудование';
 });
 
 standThree.addEventListener("click", function() {
     opnen()
     photoSlid1.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid2.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid3.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid4.src = 'assets/imges/st2/02_Kluch_01.png';
-    photoSlid5.src = 'assets/imges/st2/02_Kluch_01.png';
 
-    nameStand.innerHTML = '<span>К</span>люч';
-    aboutStand.innerText = 'Это ключ';
+    nameStand.innerHTML = 'УТСВК "<span>К</span>люч"';
+    aboutStand.innerText = 'Данный стенд позволяет на своей базе выполнять огромное количество функций и сценариев, вот некоторые из них:'+
+                        '\r\n' + '\r\n' + '1 Создание разных отделов и уровней доступа с гибкой политикой безопасности.'+
+                        '\r\n' + '2 Работа с профилями людей. Возможность добавления ряда индикаторов (лица, карты, телефоны, автомобили).'+
+                        '\r\n' + '3 Настройка гибкого расписания времени работы пропусков отдельных лиц, а также групп или целых отделов организации.'+
+                        '\r\n' + '4 Настройки логирования и централизованная выгрузка по инцидентам. '+
+                        '\r\n' + '5 Гибкое управление базой данных и удобный экспорт/импорт при необходимости.'+
+                        '\r\n' + '6 Интеграция с Active Directory'+
+                        '\r\n' + '7 Возможность настройки многофакторной идентификации'+
+                        '\r\n' + '8 Организация гостевых пропусков штатными методами'+
+                        '\r\n' + '9 Работа с фирменным приложением для идентификации с телефона'+
+                        '\r\n' + '10 Поддержка мониторинга и состояния по протоколу SNMP'+
+                        '\r\n' + '\r\n' + 'По мимо перечисленных функций и возможностей имеется огромное разнообразие прочих. Данная комплектация стенда является базовой. При необходимости возможно расширение внешними модулями. Например: турникеты, замки, считыватели присутствия, сканеры отпечатков пальцев и прочее (картинки). Также различные системы видеонаблюдения, которые присутствуют в нашем стенде УТСВК «Дозор».';
 });
 
 
