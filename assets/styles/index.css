@@ -250,8 +250,13 @@ to { -webkit-transform:rotate(360deg) } }
 
 .container__solving_problems
 {
-   min-height: 1370px;
+   min-height: 1270px;
    height: auto;
+}
+
+.container__solving_problems > div > svg 
+{
+    width: 300px;
 }
 
 .one, .two, .two, .three, .four, .five, .six
