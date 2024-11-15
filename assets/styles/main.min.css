@@ -424,6 +424,17 @@ pre
     align-items: flex-start;
 }
 
+.card > svg 
+{
+    width: 70px;
+    height: 70px;
+}
+
+.__3_svg-card
+{
+    fill: #4AFF7D;
+}
+
 .card > div
 {
     margin-left: 30px;
