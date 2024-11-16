@@ -319,7 +319,7 @@
   width: 280px;
   padding: 20px;
   border-radius: 20px;
-  height: 410px;
+  height: 380px;
   margin-top: 15px;
   position: relative;
   z-index: 1;
@@ -327,7 +327,7 @@
 
 .card_stands > img {
   border-radius: 15px 15px 0 0;
-  height: 180px;
+  height: 150px;
   width: 300px;
 }
 
@@ -467,7 +467,7 @@
 .slide-content > img {
   vertical-align: top;
   width: 360px;
-  height: 280px;
+  height: 210px;
   border-radius: 15px;
 }
 
