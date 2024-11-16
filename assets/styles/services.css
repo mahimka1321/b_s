@@ -3,6 +3,120 @@
 /* КОНТЕЙНЕР УСЛУГИ*/
 
 
+@charset "UTF-8";
+/* СТРАНИЦА УСЛУГИ*/
+/* КОНТЕЙНЕР УСЛУГИ*/
+.container__services {
+  margin-top: -70px;
+  padding-top: 200px;
+  min-height: 700px;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.container__about_services {
+  width: 1000px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__about_services > div {
+  position: relative;
+  top: -65px;
+}
+
+.container__about_services > div > p {
+  margin-top: 20px;
+  width: 550px;
+}
+
+.container__about_services > div > .btn_form_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  top: 50px;
+}
+
+.container__about_services > .img_services_bg {
+  width: 480px;
+  height: 400px;
+  background-image: url(../imges/BrowserConnection.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  transform-style: preserve-3d;
+  position: relative;
+  margin-left: 50px;
+}
+
+.img_services_bg > div {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  opacity: 1;
+  transform: translateZ(-100px);
+  scale: 0.9;
+  rotate: 25deg;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #4aff7d;
+  filter: blur(50px);
+  z-index: -10;
+}
+
+.text__form_content > h2 {
+  margin-top: 100px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.information__services > p {
+  width: 550px;
+  margin-top: 3px;
+  font-weight: 400;
+  opacity: 1;
+}
+
+.information__services > p:first-child {
+  margin-top: 20px;
+}
+
+#description > p {
+  opacity: 1;
+}
+
+.container__btn_services {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.container__btn_services > button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.service__form_content {
+  margin-top: 50px;
+}
+
+
+
+/*
 .container__services
 {
     margin-top: -70px;
