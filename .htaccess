@@ -1,0 +1,2 @@
+RewriteRule ^(.*)index\.html$ https://%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^(.*)index\.htm$ https://%{HTTP_HOST}/$1 [R=301,L]

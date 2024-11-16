@@ -4,6 +4,11 @@
   border: 0;
 }
 
+fieldset > .input_form:nth-child(2)
+{
+    display: none;
+}
+
 *, ::after, ::before {
   box-sizing: border-box;
 }

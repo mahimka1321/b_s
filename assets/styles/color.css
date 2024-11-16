@@ -111,7 +111,7 @@ span {
   border: 5px solid var(--main-bg-color-dark);
 }
 
-.btn_form_form:hover, button:hover {
+.btn_form_form:hover, button:hover, #btnForm:hover {
   background-color: var(--content-bg-color-dark);
   color: var(--svg-logo-grin-darc);
   box-shadow: inset 0 0 0 2px var(--svg-logo-grin-darc);

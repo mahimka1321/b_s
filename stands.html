@@ -314,7 +314,7 @@
       </div>
       <div class="line"></div>
       <div class="content__stands_shop">
-        <h1><span>Н</span>аши IT cтенды</h1>
+        <h1><span>Н</span>аши учебные cтенды</h1>
         <div class="wrapper_stands" id="wrapperCard">
           <div class="card_stands">
             <img src="assets/imges/st1/01_Dozor_01.png" alt="" />
@@ -819,19 +819,16 @@
             </svg>
           </div>
         </div>
-        <div class="container__form_card">
-          <div>
-            <input type="text" placeholder="Ваше имя" />
-            <input type="text" placeholder="Ваш номер телефона" />
-            <input type="text" placeholder="E-mail" />
-            <input type="text" placeholder="Название стенда" />
-            <div style="display: flex">
-              <input type="checkbox" checked />
-              <p><span>П</span>одтвердите отправку</p>
-            </div>
-            <button class="btn_form_form">Отправить</button>
-          </div>
-        </div>
+        <form class="container__form_card"  action="email.php" method="post">
+          <fieldset>
+            <input class="input_form" type="text" name="name" placeholder="Ваше имя">
+            <input class="input_form" type="text" name="name" placeholder="Ваше имя">
+            <input class="input_form" type="text" name="email" placeholder="E-mail">
+            <input class="input_form" type="text" name="phone" placeholder="Ваш номер телефона">
+            <textarea rows="10" cols="45" name="message" placeholder="Компания"></textarea>
+            <input class="input_form" id="btnForm" type="submit" value="Отправить сообщение">
+          </fieldset>
+        </form>
       </div>
     </section>
     <footer class="footer standard_container bg_content indent">
