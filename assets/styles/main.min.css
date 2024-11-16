@@ -184,6 +184,10 @@ p, pre {
   width: 100px;
 }
 
+.container_logo > a > svg {
+  scale: 1.4;
+}
+
 .box__ {
   justify-content: space-between;
 }
