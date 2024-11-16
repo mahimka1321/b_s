@@ -174,34 +174,7 @@ to { -webkit-transform:rotate(360deg) } }
     height: 300px;
 }
 
-/*КОНТЕЙНЕР С ССЫЛКОЙ НА ФОРМУ*/
 
-
-.container__form-contact
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 0;
-    min-height: 150px;
-    height: auto;
-}
-
-.container__form-contact > h1
-{
-    font-size: 28px;
-    font-weight: 400;
-}
-
-.container__form-contact > button 
-{
-    width: 250px;
-    height: 50px;
-    border-radius: 20px;
-
-    font-size: 16px;
-    font-weight: 500;
-}
 
 
 /*КОНТЕЙНЕР о сотрудничестве */
@@ -242,82 +215,6 @@ to { -webkit-transform:rotate(360deg) } }
 .content_partners
 {
     margin: 50px 0 0 0;
-}
-
-
-/*КОНТЕЙНЕР КАКИЕ ПРОБЛЕМЫ МЫ РЕШАЕМ*/
-
-
-.container__solving_problems
-{
-   min-height: 1270px;
-   height: auto;
-}
-
-.container__solving_problems > div > svg 
-{
-    width: 300px;
-}
-
-.one, .two, .two, .three, .four, .five, .six
-{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-
-    width: 100%;
-    margin-top: 40px;
-}
-
-.one { z-index: 5; }
-.two { z-index: 4; }
-.three { z-index: 3; }
-.four { z-index: 2; }
-.five { z-index: 1; }
-.six { z-index: 0; }
-
-@media (prefers-reduced-motion: no-preference)
-{
-    .one, .two, .two, .three, .four, .five, .six
-    {
-        max-height: 20vh;
-        transform: translateY(-95px);
-        animation: fade-in linear forwards;
-        animation-timeline: view();
-        animation-range: -30px 36%;
-
-        opacity: 0;
-    }
-  
-    @keyframes fade-in 
-    {
-        to 
-        {
-            transform: translateY(100px);
-            opacity: 1;
-        }
-    }
-}
-
-.text__solving_problems
-{
-    width: 600px;
-}
-
-.container__solving_problems > h1
-{
-    margin-top: 100px;
-}
-
-.text__solving_problems > h1
-{
-    font-size: 24px;
-}
-
-.text__solving_problems > p 
-{
-    margin-top: 5px;
-    font-size: 18px;
 }
 
 .containret__our_partners

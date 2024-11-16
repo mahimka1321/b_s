@@ -1,391 +1,129 @@
 :root {
-    --sp-border:0px;
-    --main-bg-color-dark:#1a1a1a;
-    --content-bg-color-dark:#252525;
-    --text-color-dark:#fff;
-    --text-color-grin-darc:#4aff7d;
-    --svg-logo-grin-darc:#4aff7d;
-    --btn-color:#1a1a1a;
-    --line-bg:rgb(255, 255, 255);
-    --color-circle:#252525;
-    --color-serv:url(#paint0_linear_340_99);
-    --line-bg-gr:linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 1) 30%,
-      rgba(255, 255, 255, 1) 70%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    --bg-rgb:rgb(74, 255, 125);
-    --bg-rgb-b:linear-gradient(
-      45deg,
-      rgba(74, 255, 125, 0.56) 0%,
-      rgba(74, 255, 125, 0.18) 25%,
-      rgba(74, 255, 125, 0.06) 50%,
-      rgba(74, 255, 125, 0) 100%
-    );
-  }
-  
-  .coments__wrapper__advantages > div, .container__form_card > div, body {
-    background-color: var(--main-bg-color-dark);
-  }
-  
-  a, h1, h2, h3, h4, h5, h6, input, li, p, pre, samp {
-    color: var(--text-color-dark);
-  }
-  
-  span {
-    color: var(--text-color-grin-darc);
-    -webkit-text-stroke-width: var(--sp-border);
-    -webkit-text-stroke-color: var(--text-color-dark);
-  }
-  
-  .btn_form_form, button {
-    background-color: var(--svg-logo-grin-darc);
-    color: var(--btn-color);
-  }
-  
-  .logo_th-w {
-    fill: var(--text-color-dark);
-  }
-  
-  .text_monitoring > h2 {
-    color: var(--svg-logo-grin-darc);
-  }
-  
-  .header::after, .line {
-    background: var(--line-bg);
-    background: var(--line-bg-gr);
-  }
-  
-  .bg_content, .container__form_card > div > input {
-    background-color: var(--content-bg-color-dark);
-  }
-  
-  .serv {
-    stroke: var(--text-color-dark);
-  }
-  
-  .prem_svg {
-    fill: var(--svg-logo-grin-darc);
-  }
-  
-  .prem_svg__serv {
-    fill: var(--line-bg-gr);
-  }
-  
-  .container__bg_gradient {
-    background: var(--bg-rgb);
-    background: var(--bg-rgb-b);
-  }
-  
-  .prem__svg_monitoring > circle, .prem__svg_monitoring > line, .prem__svg_monitoring > path, .prem__svg_monitoring > rect {
-    stroke: var(--svg-logo-grin-darc);
-  }
-  
-  .circle-mon {
-    fill: var(--color-circle) !important;
-  }
-  
-  .logo_svg, .prem__svg_monitoring > path {
-    fill: var(--svg-logo-grin-darc);
-  }
-  
-  .coments__wrapper__advantages::-webkit-scrollbar-track {
-    background: var(--main-bg-color-dark);
-  }
-  
-  .coments__wrapper__advantages::-webkit-scrollbar-thumb {
-    background-color: var(--text-color-dark);
-    border: 5px solid var(--main-bg-color-dark);
-  }
-  
-  .btn_form_form:hover, button:hover {
-    background-color: var(--content-bg-color-dark);
-    color: var(--svg-logo-grin-darc);
-    box-shadow: inset 0 0 0 2px var(--svg-logo-grin-darc);
-    transition: 0.2s;
-  }
-  
-  .contetn__stands_one > div > p > a {
-    color: var(--svg-logo-grin-darc);
-    border-bottom: 2px solid var(--svg-logo-grin-darc);
-  }
-  
-  .card_stands, .container__about_cooperation, .containret__our_partners, .footer, .open__card_ {
-    background-color: var(--main-bg-color-dark);
-  }
-  
-  .container_anim > div {
-    background-color: var(--text-color-dark);
-  }
-  
-  .sun > div {
-    background-color: var(--svg-logo-grin-darc);
-  }
-  
-  .slide1:checked ~ .bullets label:nth-child(1), .slide2:checked ~ .bullets label:nth-child(2), .slide3:checked ~ .bullets label:nth-child(3), .slide4:checked ~ .bullets label:nth-child(4), .slide5:checked ~ .bullets label:nth-child(5) {
-    background: var(--svg-logo-grin-darc);
-  }
-
-
-
-
-
-
-/*
-
-
-:root {
-    --sp-border: 0px;
-
-    --main-bg-color-dark: #1A1A1A;
-    --content-bg-color-dark: #252525;
-    --text-color-dark: #fff;
-    --text-color-grin-darc:#4AFF7D;
-    --svg-logo-grin-darc:#4AFF7D;
-    --btn-color: #1A1A1A;
-    --line-bg:rgb(255,255,255);
-    --color-circle: #252525;
-    --color-serv: url(#paint0_linear_340_99);
-    --line-bg-gr: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
-    --bg-rgb:rgb(74,255,125);
-    --bg-rgb-b: linear-gradient(45deg, rgba(74,255,125,0.56) 0%, rgba(74,255,125,0.18) 25%, rgba(74,255,125,0.06) 50%, rgba(74,255,125,0) 100%);
+  --sp-border:0px;
+  --main-bg-color-dark:#1a1a1a;
+  --content-bg-color-dark:#252525;
+  --text-color-dark:#fff;
+  --text-color-grin-darc:#4aff7d;
+  --svg-logo-grin-darc:#4aff7d;
+  --btn-color:#1a1a1a;
+  --line-bg:rgb(255, 255, 255);
+  --color-circle:#252525;
+  --color-serv:url(#paint0_linear_340_99);
+  --line-bg-gr:linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --bg-rgb:rgb(74, 255, 125);
+  --bg-rgb-b:linear-gradient(
+    45deg,
+    rgba(74, 255, 125, 0.56) 0%,
+    rgba(74, 255, 125, 0.18) 25%,
+    rgba(74, 255, 125, 0.06) 50%,
+    rgba(74, 255, 125, 0) 100%
+  );
 }
 
-body
-{
-    background-color: var(--main-bg-color-dark);
+.coments__wrapper__advantages > div, .container__form_card > div, body {
+  background-color: var(--main-bg-color-dark);
 }
 
-h1, h2, h3, h4, h5, h6
-{
-    color: var(--text-color-dark);
+a, h1, h2, h3, h4, h5, h6, input, li, p, pre, samp {
+  color: var(--text-color-dark);
 }
 
-p, li, samp
-{
-    color: var(--text-color-dark);
+span {
+  color: var(--text-color-grin-darc);
+  -webkit-text-stroke-width: var(--sp-border);
+  -webkit-text-stroke-color: var(--text-color-dark);
 }
 
-span
-{
-    color: var(--text-color-grin-darc);
-    -webkit-text-stroke-width: var(--sp-border);
-    -webkit-text-stroke-color: var(--text-color-dark);
+.btn_form_form, button {
+  background-color: var(--svg-logo-grin-darc);
+  color: var(--btn-color);
 }
 
-a
-{
-    color: var(--text-color-dark);
+.logo_th-w {
+  fill: var(--text-color-dark);
 }
 
-input 
-{
-    color: var(--text-color-dark);
+.text_monitoring > h2 {
+  color: var(--svg-logo-grin-darc);
 }
 
-pre
-{
-    color: var(--text-color-dark);
+.header::after, .line {
+  background: var(--line-bg);
+  background: var(--line-bg-gr);
 }
 
-.btn_form_form
-{
-    background-color: var(--svg-logo-grin-darc);
-    color: var(--btn-color);
+.bg_content, .container__form_card > div > input {
+  background-color: var(--content-bg-color-dark);
 }
 
-button 
-{
-    background-color: var(--svg-logo-grin-darc);
-    color: var(--btn-color);
+.serv {
+  stroke: var(--text-color-dark);
 }
 
-.logo_th-w
-{
-    fill: var(--text-color-dark);
+.prem_svg {
+  fill: var(--svg-logo-grin-darc);
 }
 
-.text_monitoring > h2
-{
-    color: var(--svg-logo-grin-darc);
-}
-
-
-.line
-{
-    background: var(--line-bg);
-    background: var(--line-bg-gr);
-}
-
-.bg_content
-{
-    background-color: var(--content-bg-color-dark);
-}
-
-
-
-.header::after
-{
-    background: var(--line-bg);
-    background: var(--line-bg-gr);
-}
-
-.serv
-{
-    stroke: var(--text-color-dark);
-}
-
-.prem_svg
-{
-    fill: var(--svg-logo-grin-darc);
-}
-
-.prem_svg__serv
-{
+.prem_svg__serv {
   fill: var(--line-bg-gr);
 }
 
-
-.container__bg_gradient
-{
-    background: var(--bg-rgb);
-    background: var(--bg-rgb-b);
+.container__bg_gradient {
+  background: var(--bg-rgb);
+  background: var(--bg-rgb-b);
 }
 
-
-.prem__svg_monitoring > rect
-{
-    stroke: var(--svg-logo-grin-darc);
+.prem__svg_monitoring > circle, .prem__svg_monitoring > line, .prem__svg_monitoring > path, .prem__svg_monitoring > rect {
+  stroke: var(--svg-logo-grin-darc);
 }
 
-.prem__svg_monitoring > path
-{
-    stroke: var(--svg-logo-grin-darc);
+.circle-mon {
+  fill: var(--color-circle) !important;
 }
 
-.prem__svg_monitoring > line
-{
-    stroke: var(--svg-logo-grin-darc);
+.logo_svg, .prem__svg_monitoring > path {
+  fill: var(--svg-logo-grin-darc);
 }
 
-.prem__svg_monitoring > circle
-{
-    stroke: var(--svg-logo-grin-darc);
+.coments__wrapper__advantages::-webkit-scrollbar-track {
+  background: var(--main-bg-color-dark);
 }
 
-.prem__svg_monitoring > path
-{
-    fill: var(--svg-logo-grin-darc); 
+.coments__wrapper__advantages::-webkit-scrollbar-thumb {
+  background-color: var(--text-color-dark);
+  border: 5px solid var(--main-bg-color-dark);
 }
 
-.circle-mon
-{
-    fill: var(--color-circle) !important;
+.btn_form_form:hover, button:hover {
+  background-color: var(--content-bg-color-dark);
+  color: var(--svg-logo-grin-darc);
+  box-shadow: inset 0 0 0 2px var(--svg-logo-grin-darc);
+  transition: 0.2s;
 }
 
-.logo_svg
-{
-    fill: var(--svg-logo-grin-darc);
+.contetn__stands_one > div > p > a {
+  color: var(--svg-logo-grin-darc);
+  border-bottom: 2px solid var(--svg-logo-grin-darc);
 }
 
-.container__form_card > div 
-{
-    background-color: var(--main-bg-color-dark);
+.card_stands, .container__about_cooperation, .containret__our_partners, .footer, .open__card_ {
+  background-color: var(--main-bg-color-dark);
 }
 
-.container__form_card > div > input
-{
-    background-color: var(--content-bg-color-dark);
+.container_anim > div {
+  background-color: var(--text-color-dark);
 }
 
-.coments__wrapper__advantages::-webkit-scrollbar-track
-{
-    background: var(--main-bg-color-dark);
+.sun > div {
+  background-color: var(--svg-logo-grin-darc);
 }
 
-
-.coments__wrapper__advantages::-webkit-scrollbar-thumb
-{
-    background-color: var(--text-color-dark);
-    border: 5px solid var(--main-bg-color-dark)
-}
-
-.coments__wrapper__advantages > div 
-{
-    background-color: var(--main-bg-color-dark);
-}
-
-
-.btn_form_form:hover
-{
-
-    background-color: var(--content-bg-color-dark);
-    color: var(--svg-logo-grin-darc);
-    box-shadow: inset 0 0 0 2px  var(--svg-logo-grin-darc);
-    transition: 0.2s;
-}
-
-button:hover
-{
-    background-color: var(--content-bg-color-dark);
-    color: var(--svg-logo-grin-darc);
-    box-shadow: inset 0 0 0 2px  var(--svg-logo-grin-darc);
-    transition: 0.2s;
-}
-
-.contetn__stands_one > div > p > a 
-{
-    color: var(--svg-logo-grin-darc);
-    border-bottom: 2px solid var(--svg-logo-grin-darc);
-}
-
-.card_stands
-{
-    background-color: var(--main-bg-color-dark);
-}
-
-
-.container_anim > div
-{
-    background-color: var(--text-color-dark);
-}
-
-
-.sun > div
-{
-    background-color: var(--svg-logo-grin-darc);
-}
-
-
-
-.open__card_
-{
-    background-color: var(--main-bg-color-dark);
-}
-
-.container__about_cooperation
-{
-    background-color: var(--main-bg-color-dark);
-}
-
-.containret__our_partners
-{
-    background-color: var(--main-bg-color-dark);
-}
-
-
-.slide1:checked ~ .bullets label:nth-child(1), 
-.slide2:checked ~ .bullets label:nth-child(2), 
-.slide3:checked ~ .bullets label:nth-child(3), 
-.slide4:checked ~ .bullets label:nth-child(4),
-.slide5:checked ~ .bullets label:nth-child(5) {
-	background: var(--svg-logo-grin-darc);
-}
-
-
-.footer
-{
-    background-color: var(--main-bg-color-dark);
+.slide1:checked ~ .bullets label:nth-child(1), .slide2:checked ~ .bullets label:nth-child(2), .slide3:checked ~ .bullets label:nth-child(3), .slide4:checked ~ .bullets label:nth-child(4), .slide5:checked ~ .bullets label:nth-child(5) {
+  background: var(--svg-logo-grin-darc);
 }
