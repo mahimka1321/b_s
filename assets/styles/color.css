@@ -118,6 +118,14 @@ span {
   transition: 0.2s;
 }
 
+#btnCont > button:focus
+{
+  background-color: var(--content-bg-color-dark);
+  color: var(--svg-logo-grin-darc);
+  box-shadow: inset 0 0 0 2px var(--svg-logo-grin-darc);
+  transition: 0.2s;
+}
+
 .contetn__stands_one > div > p > a {
   color: var(--svg-logo-grin-darc);
   border-bottom: 2px solid var(--svg-logo-grin-darc);
