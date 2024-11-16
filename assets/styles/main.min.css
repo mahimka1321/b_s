@@ -218,27 +218,42 @@ p, pre {
 
 .container__form_card {
   padding-top: 50px;
+  height: auto;
 }
 
-.container__form_card > div {
+.container__form_card > fieldset {
   display: grid;
   justify-content: center;
+  margin: 0 auto;
   align-content: space-evenly;
   width: 350px;
-  height: 450px;
+  min-height: 450px;
+  height: 100%;
   border-radius: 25px;
   padding-top: 20px;
   padding-bottom: 50px;
 }
 
-.container__form_card > div > input {
+.container__form_card > fieldset > input {
   width: 300px;
   height: 50px;
   padding-left: 15px;
   border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
-.container__form_card > div > {
+.container__form_card > fieldset > textarea {
+    width: 300px;
+    height: 130px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+.container__form_card > fieldset > {
   text-align: center;
   width: 300px;
   height: 50px;
@@ -247,11 +262,11 @@ p, pre {
   font-weight: 500;
 }
 
-.container__form_card > div > div {
+.container__form_card > fieldset > div {
   margin-top: 65px;
 }
 
-.container__form_card > div > div > p {
+.container__form_card > fieldset > div > p {
   margin-left: 10px;
 }
 

@@ -26,8 +26,19 @@
   );
 }
 
-.coments__wrapper__advantages > div, .container__form_card > div, body {
+.coments__wrapper__advantages > div, .container__form_card > fieldset, body {
   background-color: var(--main-bg-color-dark);
+}
+
+.container__form_card > fieldset > textarea {
+  border: 1px solid var(--text-color-dark);
+  color: var(--text-color-dark);
+}
+
+#btnForm
+{
+  background-color: var(--svg-logo-grin-darc);
+  color: var(--btn-color);
 }
 
 a, h1, h2, h3, h4, h5, h6, input, li, p, pre, samp {
@@ -58,7 +69,7 @@ span {
   background: var(--line-bg-gr);
 }
 
-.bg_content, .container__form_card > div > input {
+.bg_content, .container__form_card > fieldset > input {
   background-color: var(--content-bg-color-dark);
 }
 
