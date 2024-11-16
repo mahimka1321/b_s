@@ -1,6 +1,6 @@
 .container__monitoring_about {
   display: block;
-  min-height: 700px;
+  min-height: 200px;
   height: auto;
   margin-top: -70px;
 }
@@ -20,15 +20,15 @@
 }
   
 .text_monitoring > h1 {
-  width: 1100px;
+  width: 600px;
   margin-bottom: 20px;
 }
 
-.text_monitoring > h2 {
+.text_monitoring > div> h2 {
   margin-bottom: 20px;
-  width: 550px;
-  font-size: 36px;
-  font-weight: 500;
+  width: 500px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .content__iso_text {
@@ -40,12 +40,8 @@
   height: 300px;
   margin-top: 50px;
 }
-  
-.content__iso_text > div > p {
-  margin-top: 135px;
-}
 
-.content__iso_text > div > .btn_form_form {
+.text_monitoring > div > .btn_form_form {
   display: flex;
   align-items: center;
   justify-content: center;

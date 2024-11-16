@@ -264,6 +264,18 @@ p, pre {
   height: 295px;
 }
 
+.svg__form_content > a
+{
+    margin-left: -10px;
+}
+
+.svg__form_content > a > svg
+{
+    width: 50px;
+    height: 50px;
+    margin: 30px 10px 10px 10px;
+}
+
 .footer {
   display: flex;
   align-items: flex-start;
@@ -343,4 +355,5 @@ p, pre {
 
 .st__form_control > div {
   padding-top: 50px;
+  padding-bottom: 70px;
 }
