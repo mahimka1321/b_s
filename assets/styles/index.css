@@ -219,7 +219,8 @@ to { -webkit-transform:rotate(360deg) } }
 
 .containret__our_partners
 {
-    height: 200px;
+    min-height: 200px;
+    height: 100%;
     padding: 0;
 }
 

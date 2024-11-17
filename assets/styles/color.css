@@ -64,9 +64,8 @@ span {
   color: var(--svg-logo-grin-darc);
 }
 
-.header::after, .line {
-  background: var(--line-bg);
-  background: var(--line-bg-gr);
+.header {
+  border-bottom: 1px solid var(--text-color-dark);
 }
 
 .bg_content, .container__form_card > fieldset > input {
