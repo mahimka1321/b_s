@@ -185,6 +185,7 @@ p, pre {
 
 .container_logo > a > svg {
   scale: 1.4;
+  margin-top: -8px;
 }
 
 .box__ {
