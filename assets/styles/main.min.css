@@ -222,7 +222,10 @@ p, pre {
 
 .form__content_ {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .container__form_card {
@@ -381,3 +384,5 @@ p, pre {
   padding-top: 50px;
   padding-bottom: 70px;
 }
+
+
