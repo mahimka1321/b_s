@@ -27,8 +27,13 @@
 
 .sun{
     position:relative;
-    width: 350px;
-    height: 350px;
+    min-width: 100px;
+    max-width: 350px;
+    width: 100%;
+
+    min-height: 100px;
+    max-height: 350px;
+    height: 100%;
     -webkit-animation: spin1 100s infinite linear;
     -moz-animation: spin1 100s infinite linear;
     -o-animation: spin1 100s infinite linear;
@@ -65,8 +70,13 @@
 .sun > div
 {
     position: relative;
-    width: 250px;
-    height: 250px;
+    min-width: 100px;
+    max-width: 250px;
+    width: 100%;
+
+    min-height: 100px;
+    max-height: 250px;
+    height: 100%;
     border-radius: 50%;
     top: -300px;
     margin-left: 50px;
