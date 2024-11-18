@@ -147,7 +147,9 @@ to { -webkit-transform:rotate(360deg) } }
 .text__solving_problemsabout_content-problem
 {
     text-align: left;
-    width: 550px;
+    min-width: 10px;
+    max-width: 550px;
+    width: 100%;
 }
 
 .text__solving_problemsabout_content-problem > h1
@@ -157,8 +159,10 @@ to { -webkit-transform:rotate(360deg) } }
 
 .svg__about_content-two > img 
 {
-    width: 300px;
-    height: 300px;
+   max-width: 300px;
+   width: 100%;
+    max-height: 300px;
+    height: 100%;
 }
 
 .text__solving_problemsabout_content-problem > div > p:not(:first-child):not(:last-child)
@@ -183,7 +187,9 @@ to { -webkit-transform:rotate(360deg) } }
 
 .text__solving_problemsabout_content-compani
 {
-    width: 500px;
+    min-width: 10px;
+    max-width: 345px;
+    width: 100%;
 }
 
 .text__solving_problemsabout_content-compani > p 
@@ -193,8 +199,10 @@ to { -webkit-transform:rotate(360deg) } }
 
 .content__about_three > img 
 {
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
 }
 
 
@@ -283,6 +291,18 @@ to { -webkit-transform:rotate(360deg) } }
         font-size: 18px;
     }
     .sun > div {
+        display: none;
+    }
+    .card_1, .card_3 {
+        justify-content:left
+    }
+}
+
+@media (max-width: 426px) {
+    .svg__about_content-one,
+    .svg__about_content-two,
+    .content__about_three > img,
+    .svg__form_content {
         display: none;
     }
 }
