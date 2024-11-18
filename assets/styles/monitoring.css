@@ -20,13 +20,15 @@
 }
   
 .text_monitoring > h1 {
-  width: 600px;
+ max-width: 600px;
+ width: 100%;
   margin-bottom: 20px;
 }
 
 .text_monitoring > div> h2 {
   margin-bottom: 20px;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   font-size: 20px;
   font-weight: 400;
 }
@@ -46,7 +48,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: 40px;
   margin-top: 40px;
   font-size: 16px;
@@ -79,4 +82,11 @@
 .prem__svg_monitoring {
   width: 64px;
   height: 64px;
+}
+
+@media (max-width: 426px) {
+  .content__iso_text,
+  .svg__form_content{
+      display: none;
+  }
 }

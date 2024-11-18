@@ -28,7 +28,8 @@
 
 .container__about_services > div > p {
   margin-top: 20px;
-  width: 550px;
+  max-width: 550px;
+  width: 100%;
 }
 
 .container__about_services > div > .btn_form_form {
@@ -83,7 +84,6 @@
 }
 
 .information__services > p {
-  width: 550px;
   margin-top: 3px;
   font-weight: 400;
   opacity: 1;
@@ -116,4 +116,10 @@
 
 .service__form_content {
   margin-top: 50px;
+}
+
+@media (max-width: 426px) {
+  .img_services_bg{
+      display: none;
+  }
 }

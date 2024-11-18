@@ -298,17 +298,22 @@ p, pre {
   margin-top: 30px;
 }
 
-.svg__form_content, .svg__form_content > svg {
+.svg__form_content > svg {
   width: 450px;
   height: 295px;
 }
 
-.svg__form_content > a
+.map__content_form
+{
+  margin-top: 20px;
+}
+
+.map__content_form > a
 {
     margin-left: -10px;
 }
 
-.svg__form_content > a > svg
+.map__content_form > a > svg
 {
     width: 50px;
     height: 50px;
@@ -402,4 +407,17 @@ p, pre {
   padding-bottom: 70px;
 }
 
+.map__content_form > iframe {
+  min-width: 100px;
+  max-width: 500px;
+  width: 100%;
+  max-height: 300px;
+  min-height: 100px;
+  display: block;
+}
 
+@media (max-width: 426px) {
+  .map__content_form > iframe{
+      display: block !important;
+  }
+}
