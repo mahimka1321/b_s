@@ -306,3 +306,10 @@ to { -webkit-transform:rotate(360deg) } }
         display: none;
     }
 }
+
+@media (max-width: 426px) {
+    .container__form_card{
+        
+    }
+}
+
