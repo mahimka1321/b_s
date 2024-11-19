@@ -116,9 +116,11 @@ h1 {
   margin-left: 60px;
 }
 
+
+
 p, pre {
   opacity: 0.8;
-  
+
 }
 
 .op__ {
@@ -414,6 +416,16 @@ p, pre {
   max-height: 300px;
   min-height: 100px;
   display: block;
+}
+
+@media (max-width: 768px) {
+  .footer > div {
+    flex-direction: column;
+  }
+  .footer > div > a {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 426px) {
