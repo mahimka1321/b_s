@@ -371,10 +371,13 @@
 
 .text__open_st {
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   margin: 20px;
   padding-top: 20px;
-  margin-left: 50%;
+}
+
+.text__open_st > button {
+  margin-left: 20px;
 }
 
 .text__st {
@@ -410,6 +413,7 @@
 }
 
 .about__stand_t {
+  max-width: 300px;
   width: 100%;
   margin-top: auto;
   margin-left: 50px;
@@ -454,7 +458,7 @@
 }
 
 .slides {
-  max-width: 390px;
+  max-width: 550px;
   border-radius: 10px;
   position: relative;
   z-index: 1;
@@ -462,9 +466,9 @@
 
 .overflow {
   min-width: 170px;
-  max-width: 360px;
+  max-width: 550px;
   width: 100%;
-  max-height: 210px;
+  max-height: 400px;
   height: auto;
   overflow: hidden;
 }
