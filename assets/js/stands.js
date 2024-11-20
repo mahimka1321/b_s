@@ -22,7 +22,7 @@ function opnen() {
 
 standOne.addEventListener("click", function () {
   opnen()
-  photoSlid1.src = "assets/imges/st1/01_Dozor_01.png"
+  photoSlid1.src = "assets/imges/st1/01_Dozor_01.jpg"
   hrefStand.href = "https://rutube.ru/video/203defc82fb94c08aa6715ce54d36da0/"
 
   nameStand.innerHTML = 'УТСВК "<span>Д</span>озор"'
@@ -58,7 +58,7 @@ standOne.addEventListener("click", function () {
 
 standTwo.addEventListener("click", function () {
   opnen()
-  photoSlid1.src = "assets/imges/st3/03_Parus_01.png"
+  photoSlid1.src = "assets/imges/st3/03_Parus_01.jpg"
   hrefStand.href = "https://rutube.ru/video/f3d83873695d69e67952fb4a9430e00c/"
 
   nameStand.innerHTML = 'УТСБС "<span>П</span>арус"'
@@ -82,7 +82,7 @@ standTwo.addEventListener("click", function () {
 
 standThree.addEventListener("click", function () {
   opnen()
-  photoSlid1.src = "assets/imges/st2/02_Kluch_01.png"
+  photoSlid1.src = "assets/imges/st2/02_Kluch_01.jpg"
   hrefStand.href = "https://rutube.ru/video/24959fbfc9b625874bce710c00187565/"
 
   nameStand.innerHTML = 'УТСКД  "<span>К</span>люч"'

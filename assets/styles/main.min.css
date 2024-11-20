@@ -310,18 +310,6 @@ p, pre {
   margin-top: 20px;
 }
 
-.map__content_form > a
-{
-    margin-left: -10px;
-}
-
-.map__content_form > a > svg
-{
-    width: 50px;
-    height: 50px;
-    margin: 30px 10px 10px 10px;
-}
-
 .footer {
   display: flex;
   align-items: flex-start;
@@ -349,6 +337,12 @@ p, pre {
 .footer > div, .wrapper__advantages {
   display: flex;
   justify-content: space-between;
+}
+
+.footer > div > a > svg
+{
+    width: 35px;
+    height: 35px;
 }
 
 .wrapper__advantages {
