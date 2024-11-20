@@ -319,6 +319,7 @@ p, pre {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  margin: 0;
 }
 
 .footer > div, .footer > p {
@@ -410,6 +411,27 @@ p, pre {
   max-height: 300px;
   min-height: 100px;
   display: block;
+}
+
+.footer__not_all-p {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.footer__not_all-p > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__not_all-p > div > a:not(:first-child) {
+  margin-left: 20px;
+}
+
+.footer__not_all-p > div > a > svg {
+  width: 35px;
+  height: 35px;
 }
 
 @media (max-width: 768px) {
