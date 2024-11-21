@@ -307,6 +307,21 @@
   margin-top: 50px;
 }
 
+.video__stand {
+  display: flex;
+  margin: o auto;
+  justify-content: center;
+  align-items: center;
+  max-height: 405px;
+  height: 100%;
+  margin: 50px 0 50px 0;
+}
+
+.video__stand > iframe {
+  max-width: 720px;
+  width: 100%;
+}
+
 .wrapper_stands {
   display: flex;
   flex-wrap: wrap;
@@ -518,6 +533,9 @@
   }
   .about__stand_t {
     margin-left: 0;
+  }
+  .video__stand > iframe {
+    height: auto;
   }
 }
 
