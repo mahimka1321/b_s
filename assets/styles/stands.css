@@ -460,7 +460,7 @@
   max-width: 800px;
   width: 100%;
   text-align: center;
-  margin-top: -60px;
+  margin-top: -140px;
 }
 
 .slider input[type=radio] {
@@ -502,6 +502,45 @@
 }
 
 
+
+
+@media (max-width: 1024px) {
+  .text__open_st {
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
+  .open__card_btn-st {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .open__card_btn-st > a {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container__prew {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .slider {
+    margin-top: -60px;
+    margin-left: 10%;
+  }
+  .open__card_btn-st {
+    margin-top: 30px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .open__card_btn-st > a:not(:first-child) {
+    margin-left: 20px;
+  }
+}
+
+
 @media (max-width: 768px) {
   h1, h2, h3, h4, h5, h6 {
       font-size: 32px;
@@ -528,6 +567,13 @@
   .wrapper_stands {
     justify-content: center;
   }
+  .open__card_btn-st {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .open__card_btn-st > a:not(:first-child) {
+    margin-left: 0px;
+  }
   #nameStand {
     font-size: 28px;
   }
@@ -537,28 +583,7 @@
   .video__stand > iframe {
     height: auto;
   }
-}
-
-@media (max-width: 1024px) {
-  .text__open_st {
-    margin-left: 20px;
-    margin-bottom: 100px;
-  }
-  .open__card_btn-st {
-    margin-top: 30px;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .open__card_btn-st > a {
+  .slider {
     margin-left: 0;
-    margin-top: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-  .container__prew {
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
   }
 }
